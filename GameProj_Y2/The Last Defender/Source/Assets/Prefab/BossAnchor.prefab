@@ -1,0 +1,1025 @@
+{
+    "entity0": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 2055.5
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14040251115196450760
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossAnchor"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 0.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "4010763651740336390": {
+                "_active": true,
+                "trauma": 0.0,
+                "traumaExponent": 10.0,
+                "recoverySpeed": 10.0,
+                "frequency": 88.0,
+                "maxPosOffset": {
+                    "x": 50.0,
+                    "y": 50.0
+                },
+                "maxRotOffset": 20.0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 1984.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14047485901707216840
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Laser_Origin_Point"
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 10564.4541015625,
+            "y": 1998.5
+        },
+        "zPosition": 0.5699999928474426,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14056973587543295944
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LeftGunLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.1607513427734375
+                },
+                "intensity": 1.0,
+                "radius": 13.0,
+                "falloffExponent": 1.4839999675750733,
+                "innerRadius": 5.400000095367432,
+                "coneAngle": 45.0,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 2053.5
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 712.0,
+            "y": 189.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14065722401565509576
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Boss"
+            },
+            "4010763651740336390": {
+                "_active": true,
+                "trauma": 0.0,
+                "traumaExponent": 2.0,
+                "recoverySpeed": 1.5,
+                "frequency": 25.0,
+                "maxPosOffset": {
+                    "x": 50.0,
+                    "y": 50.0
+                },
+                "maxRotOffset": 20.0
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "11271550017085164832": {
+                "_active": true,
+                "playerRef": {
+                    "entityUid": 72487503450537103
+                },
+                "leftGun": {
+                    "entityUid": 5213585072359184003
+                },
+                "rightGun": {
+                    "entityUid": 5184245704083609218
+                },
+                "leftGunPivot": {
+                    "entityUid": 5203201284546467458
+                },
+                "rightGunPivot": {
+                    "entityUid": 5178974645340051074
+                },
+                "attackTimerCountdown": 3.0,
+                "attackTimer": 3.0,
+                "attackRecoilTimerCountdown": 0.5,
+                "attackRecoilTimer": 0.5,
+                "moveSpeed": 1.0,
+                "maxVerticalDisplacement": 0.8999999761581421,
+                "maxHorizontalDisplacement": 5.0,
+                "anchorPoint": {
+                    "entityUid": 5151998127552566913
+                },
+                "leftBulletOrigin": {
+                    "entityUid": 5221988639730275971
+                },
+                "rightBulletOrigin": {
+                    "entityUid": 5195290298384619138
+                },
+                "burstNumber": 5.0,
+                "bulletRate": 0.10000000149011612,
+                "moveSpeedMultiplier": 100.0,
+                "laserStartDistance": 350.0,
+                "laserFireRate": 0.5,
+                "laserOrigin": {
+                    "entityUid": 5160337923249247873
+                },
+                "laserDamage": 50,
+                "distanceThreshhold": 50.0,
+                "maxSpawnTime": 1.0,
+                "maxLightRadius": 1500.0,
+                "maxLightFalloff": 1.5,
+                "shakeForce": 1.25,
+                "maxShakeForce": 2.0,
+                "maxDistanceRetreat": 650.0,
+                "retreatSpeed": 450.0,
+                "stayForExplosionTime": 3.0,
+                "explosionRate": 0.18000000715255738,
+                "explosionAudioRate": 0.75,
+                "bossShakeForce": 0.3499999940395355,
+                "bossCapShakeForce": 1.0
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 1000,
+                "currHealth": 1000,
+                "healthType": "Boss",
+                "barShowLogarithmic": false,
+                "selectedIndex": 9
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 10563.4541015625,
+            "y": 1961.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14082857190772770760
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Boss_Left_Pivot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 0.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 2017.5
+        },
+        "zPosition": 0.5699999928474426,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14119046516489390024
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LaserLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.1607513427734375
+                },
+                "intensity": 1.0,
+                "radius": 13.0,
+                "falloffExponent": 1.4839999675750733,
+                "innerRadius": 5.400000095367432,
+                "coneAngle": 45.0,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 1966.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 195.0,
+            "y": 29.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14128978405023090632
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LaserPanelHolder"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 200,
+                "currHealth": 200,
+                "healthType": "BossLaserPoint",
+                "barShowLogarithmic": true,
+                "selectedIndex": 7
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": 11043.4541015625,
+            "y": 1998.5
+        },
+        "zPosition": 0.5699999928474426,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14150102222415923144
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "RightGunLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.1607513427734375
+                },
+                "intensity": 1.0,
+                "radius": 13.0,
+                "falloffExponent": 1.4839999675750733,
+                "innerRadius": 5.400000095367432,
+                "coneAngle": 45.0,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": 10803.4541015625,
+            "y": 2055.5
+        },
+        "zPosition": 0.6200000047683716,
+        "rotation": 270.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14154974158438598600
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossSpawnLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.07450980693101883,
+                    "y": 1.0,
+                    "z": 0.8901960849761963
+                },
+                "intensity": 1.0,
+                "radius": 356.0,
+                "falloffExponent": 0.10000000149011612,
+                "innerRadius": 0.0,
+                "coneAngle": 164.93899536132813,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": 11043.4541015625,
+            "y": 1961.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14166886267413923784
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Boss_Right_Pivot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 0.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": 10803.455078125,
+            "y": 2053.499755859375
+        },
+        "zPosition": 0.4699999988079071,
+        "rotation": 0.0,
+        "scale": {
+            "x": 712.0,
+            "y": 189.0
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14073999525099407304
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 192,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 5,
+                "spriteID_Vec": [
+                    192,
+                    206,
+                    207,
+                    208,
+                    209
+                ]
+            }
+        }
+    },
+    "entity11": {
+        "position": {
+            "x": 10563.4541015625,
+            "y": 1943.5
+        },
+        "zPosition": 0.5400000214576721,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 47.0
+        },
+        "parent": "entity4",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14092001828980983752
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossLeftGun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 200,
+                "currHealth": 200,
+                "healthType": "BossLeftGun",
+                "barShowLogarithmic": true,
+                "selectedIndex": 5
+            }
+        }
+    },
+    "entity12": {
+        "position": {
+            "x": 10563.4541015625,
+            "y": 1917.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity4",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14112480233048311752
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LeftBulletOrigin"
+            }
+        }
+    },
+    "entity13": {
+        "position": {
+            "x": 10803.4521484375,
+            "y": 1966.5006103515626
+        },
+        "zPosition": 0.47999998927116396,
+        "rotation": 0.0,
+        "scale": {
+            "x": 195.0,
+            "y": 29.0
+        },
+        "parent": "entity6",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14137425952859293640
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LaserPanelSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 191,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    191,
+                    194
+                ]
+            }
+        }
+    },
+    "entity14": {
+        "position": {
+            "x": 11043.4541015625,
+            "y": 1943.5
+        },
+        "zPosition": 0.550000011920929,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 47.0
+        },
+        "parent": "entity9",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14176465212715108296
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossRightGun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 200,
+                "currHealth": 200,
+                "healthType": "BossRightGun",
+                "barShowLogarithmic": true,
+                "selectedIndex": 6
+            }
+        }
+    },
+    "entity15": {
+        "position": {
+            "x": 11044.4541015625,
+            "y": 1919.5
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity9",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14194162951875790793
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "RightBulletOrigin"
+            }
+        }
+    },
+    "entity16": {
+        "position": {
+            "x": 10563.4365234375,
+            "y": 1943.5
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 47.0
+        },
+        "parent": "entity11",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14101886438514689992
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossLeftGun"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 190,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    190,
+                    193
+                ]
+            }
+        }
+    },
+    "entity17": {
+        "position": {
+            "x": 11043.4248046875,
+            "y": 1943.5
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 47.0
+        },
+        "parent": "entity14",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14186153009667442632
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BossRightGun"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 190,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    190,
+                    193
+                ]
+            }
+        }
+    }
+}

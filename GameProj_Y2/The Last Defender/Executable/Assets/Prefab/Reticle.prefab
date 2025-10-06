@@ -1,0 +1,51 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.9100000262260437,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "",
+        "components": {
+            "1223095846833079106": {
+                "uid": 1449756659402530941
+            },
+            "2471509561333568296": {
+                "name": "Reticle"
+            },
+            "3381165323192817782": {
+                "spriteID": 10,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            },
+            "1095350204565343168": {
+                "scriptMap": [
+                    {
+                        "key": ".Reticle",
+                        "value": {
+                            "name": ".Reticle",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".Reticle",
+                        "value": false
+                    }
+                ]
+            }
+        }
+    }
+}

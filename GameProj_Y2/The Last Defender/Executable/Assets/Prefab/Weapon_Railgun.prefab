@@ -1,0 +1,315 @@
+{
+    "entity0": {
+        "position": {
+            "x": 1220.0,
+            "y": -1260.155029296875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 8112926868486700486
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Railgun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 53.0,
+                    "y": 21.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Railgun",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Laser Rifle",
+                    "fireRPM": 60.0,
+                    "fireType": 3,
+                    "weaponType": 6,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 150,
+                    "magazineSize": 1,
+                    "spread": 0,
+                    "recoilPerShot": 50.0,
+                    "recoilWanderMultiplier": 1.0,
+                    "recoilWanderMax": 50.0,
+                    "recoilRecovery": 5.0,
+                    "recoilRecoveryMin": 1.0,
+                    "reloadTime": 1.0,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 2.0,
+                    "bulletSpeed": 2048.0,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": -4.0,
+                        "y": -1.0
+                    },
+                    "holdPointPixel": {
+                        "x": 41.0,
+                        "y": 18.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 44.0,
+                        "y": -2.0
+                    },
+                    "shellEjectionPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 5.0,
+                    "maximumScreenShake": 0.5,
+                    "enemyCycleTimeBase": 1.0,
+                    "enemyCycleTimeBurst": 0.20000000298023225,
+                    "enemyBurstBullets": 3
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Laser"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Sniper"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 1264.0,
+            "y": -1262.155029296875
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 35.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5609234436276642287
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Railgun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 13994699350479829363,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 1220.0015869140626,
+            "y": -1260.154296875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 53.0,
+            "y": 21.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 8121147916927581638
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 126,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    126,
+                    127
+                ]
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 1264.0,
+            "y": -1262.155029296875
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 35.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 10013224909400475187
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Railgun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 13994699350479829363,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

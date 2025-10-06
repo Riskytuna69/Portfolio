@@ -1,0 +1,72 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.4099999964237213,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 9.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3361635858348097805
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Laser"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 110,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "transparent",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 0.501960813999176
+                        },
+                        "lightPenetration": 0.5,
+                        "reflectivity": 0.30000001192092898
+                    }
+                }
+            },
+            "5425210487325908966": {
+                "_active": true,
+                "direction": {
+                    "x": 1.0,
+                    "y": 0.0
+                },
+                "origin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "damage": 10,
+                "lifeTime": 1.0,
+                "maxLifeTime": 1.0,
+                "isPlayerBullet": false
+            }
+        }
+    }
+}

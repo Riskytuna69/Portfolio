@@ -1,0 +1,463 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1161.8812255859376,
+            "y": -1351.5770263671876
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2129671560009415769
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": true
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Enemy"
+            },
+            "3998834461679055199": {
+                "_active": true,
+                "enemyRole": 0,
+                "weaponPrefabName": "Weapon_Pistol",
+                "cycleTimeBase": 1.0,
+                "cycleDeviation": 0.5,
+                "audioDeath": {
+                    "name": "S"
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 0.20000000298023225,
+                    "y": 0.675000011920929
+                },
+                "halfLengths": {
+                    "x": 10.0,
+                    "y": 33.75
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 100,
+                "currHealth": 100,
+                "healthType": "EnemyPatrol"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1161.8809814453126,
+            "y": -1351.5771484375
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2138813999194373209
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Flipper"
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -1162.74853515625,
+            "y": -1338.3453369140626
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2147057037867809882
+            },
+            "1678835048672289818": {
+                "_active": true
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmPivot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -1163.7098388671876,
+            "y": -1351.3990478515626
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 40.0,
+            "y": 67.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2180947284770749530
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "EnemySprite"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 3010631572665374100,
+                "currentFrame": 0,
+                "currentFrameTime": 0.043731797486543658,
+                "playbackSpeed": 1.0,
+                "isPlaying": true,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 15,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -1154.8909912109376,
+            "y": -1338.8800048828126
+        },
+        "zPosition": 0.6000000238418579,
+        "rotation": 0.0,
+        "scale": {
+            "x": 28.0,
+            "y": 13.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 2
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2154018045983259738
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 19,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -1389.3046875,
+            "y": -1372.6395263671876
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2165822402819062874
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Shotgun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 20.0,
+                    "y": 13.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Uninited Weapon",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Shotgun",
+                    "fireRPM": 300.0,
+                    "fireType": 0,
+                    "weaponType": 0,
+                    "burstCount": 1,
+                    "pelletCount": 10,
+                    "damagePerBullet": 10,
+                    "magazineSize": 7,
+                    "spread": 20,
+                    "recoilPerShot": 3.0,
+                    "recoilWanderMultiplier": 3.0,
+                    "recoilWanderMax": 20.0,
+                    "recoilRecovery": 1.0,
+                    "recoilRecoveryMin": 1.5,
+                    "reloadTime": 2.0,
+                    "bulletSize": 0.800000011920929,
+                    "bulletSpeed": 30.0,
+                    "bulletSpeedRange": 25.0,
+                    "firePointPixel": {
+                        "x": 40.0,
+                        "y": 7.0
+                    },
+                    "holdPointPixel": {
+                        "x": 32.0,
+                        "y": 9.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 0.0,
+                    "maximumScreenShake": 0.0
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Pistol"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Pistol"
+                }
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": -1389.3031005859376,
+            "y": -1372.6387939453126
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 44.0,
+            "y": 17.0
+        },
+        "parent": "entity5",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2170888952399854682
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 53,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    53,
+                    54
+                ]
+            }
+        }
+    }
+}

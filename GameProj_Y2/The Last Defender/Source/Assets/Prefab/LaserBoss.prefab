@@ -1,0 +1,77 @@
+{
+    "entity0": {
+        "position": {
+            "x": 504.09185791015627,
+            "y": -31.53199005126953
+        },
+        "zPosition": 0.44999998807907107,
+        "rotation": 0.0,
+        "scale": {
+            "x": 80.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13044260705892494476
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "LaserBoss"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 148,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            },
+            "12856236146283524982": {
+                "_active": true,
+                "lifeTime": 0.5,
+                "damage": 10
+            }
+        }
+    }
+}

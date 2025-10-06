@@ -1,0 +1,697 @@
+{
+    "entity0": {
+        "position": {
+            "x": -22.5,
+            "y": 160.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2272270521388343876
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "1"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -22.5,
+            "y": 140.00001525878907
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2282680697480127045
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 2"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -22.5,
+            "y": 120.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2289509764200243781
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 3"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "They are still broadcasting that",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -22.5,
+            "y": 60.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2299009544664228421
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 6"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -22.5,
+            "y": -79.99998474121094
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2307589033895764549
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 13"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -22.5,
+            "y": 160.00001525878907
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2318796355917685317
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 1"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Day 4",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": -22.5,
+            "y": -19.999984741210939
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2325398923242480197
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 10"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "the internet is still up.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": -22.5,
+            "y": 100.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2336401736101634629
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 4"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "same emergency message. We haven't",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": -22.5,
+            "y": -59.99998474121094
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2345169241821520453
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 12"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": 402.5,
+            "y": -140.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2351162679704527429
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 16"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "A survivor's note",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 2,
+                "UI": true
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": -22.5,
+            "y": 40.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2362331518819476037
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 7"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "I've managed to hole myself up in",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity11": {
+        "position": {
+            "x": -22.5,
+            "y": -100.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2373072647911219781
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 14"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity12": {
+        "position": {
+            "x": -22.5,
+            "y": 20.000015258789064
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2382183201258971717
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 8"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "the house, but I don't think I can",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity13": {
+        "position": {
+            "x": -22.5,
+            "y": 0.0000152587890625
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2388910013397705285
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 9"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "last much longer in here. At least",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity14": {
+        "position": {
+            "x": -22.5,
+            "y": -39.99998474121094
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2396409782210765381
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 11"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity15": {
+        "position": {
+            "x": -22.5,
+            "y": 80.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2405906264139866693
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 5"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "heard anything else from the news.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity16": {
+        "position": {
+            "x": -22.5,
+            "y": -120.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2414738641045791301
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 15"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    }
+}

@@ -1,0 +1,155 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 1
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 817230709132189422
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bound Boxes"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1575.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 1000.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 791540619949104628
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bounds"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 0.0,
+            "y": 500.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 3200.0,
+            "y": 50.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 806529162459007889
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bounds"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 1575.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 1000.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3571292932459382018
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bounds"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    }
+}

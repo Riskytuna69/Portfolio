@@ -1,0 +1,102 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.4099999964237213,
+        "rotation": 0.0,
+        "scale": {
+            "x": 4.0,
+            "y": 4.0
+        },
+        "parent": "",
+        "components": {
+            "338524662637788620": {
+                "_active": true,
+                "enabled": true,
+                "emitting": true,
+                "minVertexDistance": 0.10000000149011612,
+                "lifetime": 0.10000000149011612,
+                "maxPoints": 100,
+                "startWidth": 4.0,
+                "endWidth": 0.10000000149011612,
+                "startColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "endColor": {
+                    "x": 1.0,
+                    "y": 0.05882352590560913,
+                    "z": 0.05882352590560913,
+                    "w": 1.0
+                },
+                "smoothing": 0.009999999776482582
+            },
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15772922010470667591
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": false,
+                    "Lock Rotation (UMIMPLEMENTED)": true
+                },
+                "mass": 0.009999999776482582,
+                "restitutionCoeff": 1.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BulletEnemy"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            },
+            "15269093901277271529": {
+                "_active": true,
+                "direction": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "speed": 1000.0,
+                "lifeTime": 2.0,
+                "isPlayerBullet": false,
+                "audioImpact": {
+                    "name": "Gun_Impact"
+                },
+                "audioImpactBoss": {
+                    "name": "Gun_Impact_Boss"
+                },
+                "audioImpactEnvironment": {
+                    "name": "Gun_Impact_Environment"
+                }
+            }
+        }
+    }
+}

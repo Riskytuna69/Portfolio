@@ -1,0 +1,45 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "",
+        "components": {
+            "1223095846833079106": {
+                "uid": 727381918481944900
+            },
+            "2471509561333568296": {
+                "name": "Camera Anchor"
+            },
+            "14723636048609971163": {
+                "active": true,
+                "priority": 1,
+                "zoom": 0.0
+            },
+            "1095350204565343168": {
+                "scriptMap": [
+                    {
+                        "key": ".CameraLock",
+                        "value": {
+                            "name": ".CameraLock",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".CameraLock",
+                        "value": false
+                    }
+                ]
+            }
+        }
+    }
+}

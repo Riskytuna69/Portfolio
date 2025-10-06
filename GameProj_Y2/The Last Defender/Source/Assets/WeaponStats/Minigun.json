@@ -1,0 +1,44 @@
+{
+    "weaponName": "Minigun",
+    "fireRPM": 1600.0,
+    "fireType": 1,
+    "weaponType": 3,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 16,
+    "magazineSize": 200,
+    "spread": 30,
+    "recoilPerShot": 0.17000000178813935,
+    "recoilWanderMultiplier": -8.0,
+    "recoilWanderMax": 30.0,
+    "recoilRecovery": 1.0,
+    "recoilRecoveryMin": 0.009999999776482582,
+    "reloadTime": 3.0,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 0.8999999761581421,
+    "bulletSpeed": 30.0,
+    "bulletSpeedRange": 0.05000000074505806,
+    "firePointPixel": {
+        "x": 32.0,
+        "y": 2.0
+    },
+    "holdPointPixel": {
+        "x": 44.0,
+        "y": 9.0
+    },
+    "muzzleFlashPosition": {
+        "x": 43.5,
+        "y": 2.5
+    },
+    "shellEjectionPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.009999999776482582,
+    "screenShakePerShot": 0.03999999910593033,
+    "maximumScreenShake": 0.30000001192092898,
+    "enemyDamage": 5,
+    "enemyCycleTimeBase": 5.0,
+    "enemyCycleTimeBurst": 0.07500000298023224,
+    "enemyBurstBullets": 100
+}

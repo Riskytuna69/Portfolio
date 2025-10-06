@@ -1,0 +1,119 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 8.0,
+            "y": 8.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 8482820169924719731
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ShellCasing"
+            },
+            "7334547544426974756": {
+                "_active": true,
+                "delayTimer": 1.0,
+                "delayRandomOffset": 0.4000000059604645,
+                "fadeLength": 1.0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 360.0,
+        "scale": {
+            "x": 2.0,
+            "y": 5.199999809265137
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 8492009888109671539
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 0.009999999776482582,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 500.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Particle"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 237,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.4311065077781677,
+                            "y": 0.4311065077781677,
+                            "z": 0.4311065077781677,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    }
+}

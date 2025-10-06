@@ -1,0 +1,291 @@
+{
+    "entity0": {
+        "position": {
+            "x": 845.1685791015625,
+            "y": 535.414306640625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 3
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15363300053067065275
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": true
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "PatrolEnemy"
+            },
+            "3998834461679055199": {
+                "_active": true,
+                "enemyRole": 0,
+                "speed": 150.0,
+                "weaponPrefabName": "Weapon_Pistol",
+                "audioDeath": {
+                    "name": "S"
+                }
+            },
+            "6733303053760522166": {
+                "_active": true,
+                "prefabName": "Enemy Gibs"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 0.20000000298023225,
+                    "y": 0.675000011920929
+                },
+                "halfLengths": {
+                    "x": 10.0,
+                    "y": 33.75
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 0
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 100,
+                "currHealth": 100,
+                "healthType": "EnemyPatrol",
+                "selectedIndex": 0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 845.1688842773438,
+            "y": 535.4140014648438
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15371118680252180411
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Flipper"
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 843.3399047851563,
+            "y": 535.5923461914063
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 40.0,
+            "y": 67.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15380385364251076539
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "EnemySprite"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 3010631572665374100,
+                "currentFrame": 3,
+                "currentFrameTime": 0.09622465074062348,
+                "playbackSpeed": 1.0,
+                "isPlaying": true,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 18,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 844.3012084960938,
+            "y": 548.6460571289063
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15393159490342578107
+            },
+            "1678835048672289818": {
+                "_active": true
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmPivot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 852.1588134765625,
+            "y": 548.1113891601563
+        },
+        "zPosition": 0.6000000238418579,
+        "rotation": 0.0,
+        "scale": {
+            "x": 28.0,
+            "y": 13.0
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 2
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 15398602072900069307
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 19,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

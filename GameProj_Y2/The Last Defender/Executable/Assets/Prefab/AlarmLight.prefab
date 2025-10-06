@@ -1,0 +1,222 @@
+{
+    "entity0": {
+        "position": {
+            "x": 700.0,
+            "y": -1110.0
+        },
+        "zPosition": 0.20999999344348908,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3687387066965653511
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "AlarmLight"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 157,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 700.0,
+            "y": -1110.0
+        },
+        "zPosition": 0.20999999344348908,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4897134631031312675
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Pivot"
+            },
+            "15298111001969426468": {
+                "_active": true,
+                "rotationSpeed": 360.0
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 700.0,
+            "y": -1110.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3696793388941424688
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ConeLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "intensity": 0.5176470875740051,
+                "radius": 1000.0,
+                "falloffExponent": 2.805000066757202,
+                "innerRadius": 0.0,
+                "coneAngle": 102.59500122070313,
+                "coneFalloff": 1.0,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 700.0,
+            "y": -1110.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4888942169892688132
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "MiddleLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "intensity": 0.5176470875740051,
+                "radius": 25.0,
+                "falloffExponent": 2.7060000896453859,
+                "innerRadius": 8.800000190734864,
+                "coneAngle": 96.5469970703125,
+                "coneFalloff": 1.0,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 700.0,
+            "y": -1110.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 180.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4907962621541756738
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ConeLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "intensity": 0.5176470875740051,
+                "radius": 1000.0,
+                "falloffExponent": 2.805000066757202,
+                "innerRadius": 0.0,
+                "coneAngle": 102.59500122070313,
+                "coneFalloff": 1.0,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": true
+            }
+        }
+    }
+}

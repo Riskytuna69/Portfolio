@@ -1,0 +1,697 @@
+{
+    "entity0": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 159.99998474121095
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13738044846208940021
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "2"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 120.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13746273591231215605
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 3"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Lockdown begins today.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 60.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13757336877229897717
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 6"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "within their private quarters.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -100.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13763784413415176181
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 14"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 160.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13772095621809534966
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 1"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Sitewide announcment #1",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 0.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13782031908389746678
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 9"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "1900 to 2100 hours.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 402.5000305175781,
+            "y": -140.00001525878907
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13792671882411735030
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 16"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 2,
+                "UI": true
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -120.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13802756603061696502
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 15"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -40.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13811508715618793462
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 11"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 100.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13817951853757560822
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 4"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 140.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13830492883383973878
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 2"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity11": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 80.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13836618262662313974
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 5"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "All facility personnel are to remain",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity12": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -80.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13844256569940473846
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 13"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity13": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 20.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13853373720357992438
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 8"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Expect power fluctuations between",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity14": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -20.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13862150022170900470
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 10"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity15": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": 40.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13874943939471702006
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 7"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity16": {
+        "position": {
+            "x": -22.499969482421876,
+            "y": -60.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13882508579470800886
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 12"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    }
+}

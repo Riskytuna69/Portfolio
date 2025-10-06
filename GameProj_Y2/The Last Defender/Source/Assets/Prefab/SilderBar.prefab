@@ -1,0 +1,123 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1197.4599609375,
+            "y": -1351.774169921875
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 750.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4522539816696789766
+            },
+            "2316632703462147190": {
+                "_active": true
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SilderBar"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -854.904541015625,
+            "y": -1351.774169921875
+        },
+        "zPosition": 0.6000000238418579,
+        "rotation": 0.0,
+        "scale": {
+            "x": 75.0,
+            "y": 150.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4531459055021360610
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SliderButton"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 42,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "10928406963232973884": {
+                "_active": true,
+                "isPressed": false,
+                "spriteID_Pressed": 43,
+                "spriteID_Unpressed": 42,
+                "sliderValue": 0.5,
+                "sound": 1
+            }
+        }
+    }
+}

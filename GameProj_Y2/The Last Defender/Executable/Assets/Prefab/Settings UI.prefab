@@ -1,0 +1,723 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5037508180189220174
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Settings UI"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 130.0,
+            "y": 120.0
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 63.0,
+            "y": 63.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 6262330048671295473
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Fullscreen Checkbox"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 169,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "8773806079482413391": {
+                "_active": true,
+                "isChecked": false,
+                "spriteID_Pressed": 170,
+                "spriteID_Unpressed": 169
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 0.0,
+            "y": 35.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7465904954458356493
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text3"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Audio Settings",
+                "color": {
+                    "x": 0.2980392277240753,
+                    "y": 1.0,
+                    "z": 0.9764705896377564,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 0.0,
+            "y": 185.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7474463552969378390
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text1"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "General Settings",
+                "color": {
+                    "x": 0.2980392277240753,
+                    "y": 1.0,
+                    "z": 0.9764705896377564,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -40.0,
+            "y": 120.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7482273384061529472
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text2"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Fullscreen",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": 50.0,
+            "y": -70.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7508044837105142966
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "AudioSliders"
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 0.0,
+            "y": -200.0
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 60.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13591419472730903912
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Back"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 39,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16420137372183402257": {
+                "_active": true,
+                "spriteID_Pressed": 40,
+                "spriteID_Unpressed": 39,
+                "clickSound": {
+                    "name": "Click"
+                },
+                "numFunctions": 1,
+                "vecFunctions": [
+                    {
+                        "function": "ChangeMenuScreenByName",
+                        "parameter": "Pause UI"
+                    }
+                ]
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": -230.0,
+            "y": -30.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "entity5",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 706233910730325539
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "TextAudio"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "BGM",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": 50.0,
+            "y": -30.0
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 402.0,
+            "y": 54.0
+        },
+        "parent": "entity5",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5269000459013854616
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SettingsSliderBack(BGM)"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 166,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": -230.0,
+            "y": -110.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "entity5",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7634687685904253659
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "TextAudio"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "SFX",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": 50.0,
+            "y": -110.0
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 402.0,
+            "y": 54.0
+        },
+        "parent": "entity5",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 8314261739372389675
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SettingsSliderBack(SFX)"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 166,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity11": {
+        "position": {
+            "x": -0.000035762786865234378,
+            "y": -200.00045776367188
+        },
+        "zPosition": 0.9700000286102295,
+        "rotation": 0.0,
+        "scale": {
+            "x": 29.048704147338868,
+            "y": 29.048704147338868
+        },
+        "parent": "entity6",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13598160578520798568
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Back",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity12": {
+        "position": {
+            "x": 50.0,
+            "y": -30.000015258789064
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 354.0,
+            "y": 30.000001907348634
+        },
+        "parent": "entity8",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 6272707239414265222
+            },
+            "2316632703462147190": {
+                "_active": true
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SettingsSliderBar(BGM)"
+            }
+        }
+    },
+    "entity13": {
+        "position": {
+            "x": 50.0,
+            "y": -110.0000228881836
+        },
+        "zPosition": 0.9599999785423279,
+        "rotation": 0.0,
+        "scale": {
+            "x": 354.0,
+            "y": 30.000001907348634
+        },
+        "parent": "entity10",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7491567555851237911
+            },
+            "2316632703462147190": {
+                "_active": true
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SettingsSliderBar(SFX)"
+            }
+        }
+    },
+    "entity14": {
+        "position": {
+            "x": 49.999977111816409,
+            "y": -29.999996185302736
+        },
+        "zPosition": 0.9700000286102295,
+        "rotation": 0.0,
+        "scale": {
+            "x": 24.000001907348634,
+            "y": 30.000001907348634
+        },
+        "parent": "entity12",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 6280503876366824838
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SliderButton(BGM)"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 167,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "10928406963232973884": {
+                "_active": true,
+                "isPressed": false,
+                "spriteID_Pressed": 168,
+                "spriteID_Unpressed": 167,
+                "sliderValue": 0.5,
+                "sound": 1
+            }
+        }
+    },
+    "entity15": {
+        "position": {
+            "x": 49.999977111816409,
+            "y": -110.00000762939453
+        },
+        "zPosition": 0.9700000286102295,
+        "rotation": 0.0,
+        "scale": {
+            "x": 24.000001907348634,
+            "y": 30.0
+        },
+        "parent": "entity13",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 7501895268570937879
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SliderButton(SFX)"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 167,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "10928406963232973884": {
+                "_active": true,
+                "isPressed": false,
+                "spriteID_Pressed": 168,
+                "spriteID_Unpressed": 167,
+                "sliderValue": 0.5,
+                "sound": 0
+            }
+        }
+    }
+}

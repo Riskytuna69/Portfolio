@@ -1,0 +1,120 @@
+{
+    "entity0": {
+        "position": {
+            "x": 104.05365753173828,
+            "y": 553.8761596679688
+        },
+        "zPosition": 0.20000000298023225,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.0,
+            "y": 30.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4765331773991415625
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "FanBlock"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 212,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.33194154500961306,
+                            "y": 0.33194154500961306,
+                            "z": 0.33194154500961306,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 104.05365753173828,
+            "y": 553.8762817382813
+        },
+        "zPosition": 0.20999999344348908,
+        "rotation": 0.0,
+        "scale": {
+            "x": 19.5,
+            "y": 19.5
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4775414295618121545
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Fan"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 213,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.3528183698654175,
+                            "y": 0.3528183698654175,
+                            "z": 0.3528183698654175,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "15298111001969426468": {
+                "_active": true,
+                "rotationSpeed": 360.0
+            }
+        }
+    }
+}

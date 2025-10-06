@@ -1,0 +1,117 @@
+{
+    "entity0": {
+        "position": {
+            "x": -309.99993896484377,
+            "y": 240.00015258789063
+        },
+        "zPosition": 0.8999999761581421,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 20.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 127504866281192598
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bar"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -309.99993896484377,
+            "y": 240.00015258789063
+        },
+        "zPosition": 0.9100000262260437,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 156745278510267540
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Fill"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16719731451929260862": {
+                "_active": true,
+                "maxValue": 100.0,
+                "currValue": 100.0
+            }
+        }
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 300.0
+        },
+        "parent": "",
+        "components": {
+            "1223095846833079106": {
+                "uid": 788643407846960197
+            },
+            "2471509561333568296": {
+                "name": "Background Group"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 300.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 300.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1223095846833079106": {
+                "uid": 772923690104570759
+            },
+            "2471509561333568296": {
+                "name": "New Entity"
+            },
+            "3381165323192817782": {
+                "spriteID": 26,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -300.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 300.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1223095846833079106": {
+                "uid": 779474580382923040
+            },
+            "2471509561333568296": {
+                "name": "New Entity"
+            },
+            "3381165323192817782": {
+                "spriteID": 26,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 300.0,
+            "y": 300.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1223095846833079106": {
+                "uid": 761312847315209389
+            },
+            "2471509561333568296": {
+                "name": "New Entity"
+            },
+            "3381165323192817782": {
+                "spriteID": 26,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 0.0,
+            "y": -210.0
+        },
+        "zPosition": 0.009999999776482582,
+        "rotation": 0.0,
+        "scale": {
+            "x": 900.0,
+            "y": 150.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1223095846833079106": {
+                "uid": 283485983530611009
+            },
+            "2471509561333568296": {
+                "name": "Background Ground"
+            },
+            "3381165323192817782": {
+                "spriteID": 0,
+                "color": {
+                    "x": 0.10980392247438431,
+                    "y": 0.12156862765550614,
+                    "z": 0.11764705926179886,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    }
+}

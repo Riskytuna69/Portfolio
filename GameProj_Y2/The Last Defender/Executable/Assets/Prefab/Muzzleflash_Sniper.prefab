@@ -1,0 +1,45 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 35.0,
+            "y": 17.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "uid": 2138042141934480837
+            },
+            "2471509561333568296": {
+                "name": "Muzzleflash_Sniper"
+            },
+            "3155512332023022152": {
+                "currentAnimationHash": 1548417163419803412,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    }
+}

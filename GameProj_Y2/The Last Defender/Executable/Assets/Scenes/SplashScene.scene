@@ -1,0 +1,233 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 792988677377564803
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Holder"
+            },
+            "10738633762459911499": {
+                "_active": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".CameraLock",
+                        "value": {
+                            "name": ".CameraLock",
+                            "vars": [
+                                {
+                                    "key": "zoom",
+                                    "value": 1.0
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "openStates": []
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 12964864971493301202
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Camera"
+            },
+            "14723636048609971163": {
+                "_active": true,
+                "active": true,
+                "priority": 12,
+                "zoom": 0.0
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -1.3333333730697632,
+            "y": -1.3333333730697632
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 775584507821413632
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BlackHolder"
+            },
+            "7334547544426974756": {
+                "_active": true,
+                "delayTimer": 0.25,
+                "delayRandomOffset": 0.0,
+                "fadeLength": 1.0
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1917.0,
+            "y": 1076.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 785364663750551201
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Digipen Logo"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 359,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "7882782333264670389": {
+                "_active": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -1.3333333730697632,
+            "y": -1.3333333730697632
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 6000.0,
+            "y": 3000.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 769227131589592983
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Black Texture"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

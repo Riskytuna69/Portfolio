@@ -1,0 +1,44 @@
+{
+    "weaponName": "Assault",
+    "fireRPM": 600.0,
+    "fireType": 1,
+    "weaponType": 1,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 20,
+    "magazineSize": 30,
+    "spread": 2,
+    "recoilPerShot": 1.0,
+    "recoilWanderMultiplier": 1.0,
+    "recoilWanderMax": 10.0,
+    "recoilRecovery": 1.2000000476837159,
+    "recoilRecoveryMin": 0.75,
+    "reloadTime": 2.5,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 1.0,
+    "bulletSpeed": 35.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 9.0,
+        "y": 1.0
+    },
+    "holdPointPixel": {
+        "x": 27.0,
+        "y": 10.0
+    },
+    "muzzleFlashPosition": {
+        "x": 36.5,
+        "y": 0.5
+    },
+    "shellEjectionPosition": {
+        "x": -10.5,
+        "y": 0.5
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 0.0,
+    "maximumScreenShake": 0.0,
+    "enemyDamage": 10,
+    "enemyCycleTimeBase": 1.0,
+    "enemyCycleTimeBurst": 0.15000000596046449,
+    "enemyBurstBullets": 4
+}

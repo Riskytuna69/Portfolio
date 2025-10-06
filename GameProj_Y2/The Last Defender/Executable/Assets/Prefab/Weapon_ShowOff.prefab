@@ -1,0 +1,197 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1234.7510986328126,
+            "y": -1367.87255859375
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2574095259197266843
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_ShowOff"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 48.0,
+                    "y": 48.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Nokia",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Grenade",
+                    "fireRPM": 1.0,
+                    "fireType": 1,
+                    "weaponType": 8,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 150,
+                    "magazineSize": 1,
+                    "spread": 0,
+                    "recoilPerShot": 0.0,
+                    "recoilWanderMultiplier": 0.0,
+                    "recoilWanderMax": 0.0,
+                    "recoilRecovery": 0.0,
+                    "recoilRecoveryMin": 0.0,
+                    "reloadTime": 0.0,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 1.0,
+                    "bulletSpeed": 0.0010000000474974514,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "holdPointPixel": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 0.0,
+                    "maximumScreenShake": 0.0
+                },
+                "audioReload": {
+                    "name": "Coin"
+                },
+                "audioFire": {
+                    "name": "Coin"
+                },
+                "audioPickup": {
+                    "name": "Coin"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1234.74951171875,
+            "y": -1367.871826171875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 48.0,
+            "y": 48.0
+        },
+        "parent": "entity0",
+        "components": {
+            "338524662637788620": {
+                "_active": true,
+                "enabled": true,
+                "emitting": true,
+                "minVertexDistance": 0.10000000149011612,
+                "lifetime": 1.0,
+                "maxPoints": 100,
+                "startWidth": 9.199999809265137,
+                "endWidth": 0.10000000149011612,
+                "startColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "endColor": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 0.0
+                },
+                "smoothing": 0.009999999776482582
+            },
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2583236598870596507
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 161,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 3,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    161,
+                    161
+                ]
+            }
+        }
+    }
+}

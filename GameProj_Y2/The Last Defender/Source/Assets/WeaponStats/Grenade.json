@@ -1,0 +1,35 @@
+{
+    "weaponName": "Grenade",
+    "fireRPM": 15.0,
+    "fireType": 1,
+    "weaponType": 8,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 150,
+    "magazineSize": 1,
+    "spread": 0,
+    "recoilPerShot": 0.0,
+    "recoilWanderMultiplier": 1000.0,
+    "recoilWanderMax": 0.5,
+    "recoilRecovery": 0.0,
+    "recoilRecoveryMin": 0.0,
+    "reloadTime": 0.0,
+    "bulletSize": 1.0,
+    "bulletSpeed": 0.0010000000474974514,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "holdPointPixel": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "muzzleFlashPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 0.0,
+    "maximumScreenShake": 0.0
+}

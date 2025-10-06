@@ -1,0 +1,217 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 40.0
+        },
+        "zPosition": 0.800000011920929,
+        "rotation": 0.0,
+        "scale": {
+            "x": 432.0,
+            "y": 340.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 185824062219882997
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Instruction"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 103,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": -190.0
+        },
+        "zPosition": 0.9900000095367432,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 60.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 715636935169304453
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Button"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 39,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "16420137372183402257": {
+                "_active": true,
+                "spriteID_Pressed": 40,
+                "spriteID_Unpressed": 39,
+                "clickSound": {
+                    "name": "Click"
+                },
+                "numFunctions": 2,
+                "vecFunctions": [
+                    {
+                        "function": "LoadScene",
+                        "parameter": "MenuScene"
+                    },
+                    {
+                        "function": "UnloadScene",
+                        "parameter": "How To Play"
+                    }
+                ]
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".CameraLock",
+                        "value": {
+                            "name": ".CameraLock",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": []
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 727381918481944901
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Camera Anchor"
+            },
+            "14723636048609971163": {
+                "_active": true,
+                "active": true,
+                "priority": 1,
+                "zoom": 2.0
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 0.0,
+            "y": -189.99996948242188
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 29.048704147338868,
+            "y": 29.048704147338868
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 105113311732924668
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Back",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": false
+            }
+        }
+    }
+}

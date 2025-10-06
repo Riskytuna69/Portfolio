@@ -1,0 +1,46 @@
+{
+    "entity0": {
+        "position": {
+            "x": 360.0,
+            "y": 240.00001525878907
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 10.0,
+            "y": 10.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 91127524076223633
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "FPS Text"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 0.4029228687286377,
+                    "y": 1.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            },
+            "10503043680691234186": {
+                "_active": true,
+                "doDisplay": false
+            }
+        }
+    }
+}

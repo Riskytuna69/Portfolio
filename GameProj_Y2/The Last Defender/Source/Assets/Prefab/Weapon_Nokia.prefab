@@ -1,0 +1,236 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1151.0855712890626,
+            "y": -1353.27197265625
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9801645887639986470
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Nokia"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 14.0,
+                    "y": 26.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Nokia",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Nokia",
+                    "fireRPM": 6000.0,
+                    "fireType": 1,
+                    "weaponType": 0,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 15,
+                    "magazineSize": 99999,
+                    "spread": 0,
+                    "recoilPerShot": 0.0,
+                    "recoilWanderMultiplier": 0.0,
+                    "recoilWanderMax": 0.0,
+                    "recoilRecovery": 0.0,
+                    "recoilRecoveryMin": 0.0,
+                    "reloadTime": 0.0,
+                    "bulletSize": 1.0,
+                    "bulletSpeed": 0.0010000000474974514,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "holdPointPixel": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 5.0,
+                    "screenShakePerShot": 5.0,
+                    "maximumScreenShake": 5.0
+                },
+                "audioReload": {
+                    "name": "Coin"
+                },
+                "audioFire": {
+                    "name": "Coin"
+                },
+                "audioPickup": {
+                    "name": "Coin"
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1151.083984375,
+            "y": -1353.271240234375
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 14.0,
+            "y": 26.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9810069246220378406
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 57,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    57,
+                    58
+                ]
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -1151.0855712890626,
+            "y": -1353.27197265625
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 22.0,
+            "y": 13.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9821511863730662005
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Pistol"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 3683971018215759968,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

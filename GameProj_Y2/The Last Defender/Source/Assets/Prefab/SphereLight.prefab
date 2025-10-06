@@ -1,0 +1,76 @@
+{
+    "entity0": {
+        "position": {
+            "x": 900.0,
+            "y": -675.0
+        },
+        "zPosition": 0.20999999344348908,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13064506013754906844
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SphereLight"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 155,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.9019607901573181,
+                    "y": 0.8392156958580017,
+                    "z": 0.686274528503418
+                },
+                "intensity": 0.5176470875740051,
+                "radius": 1000.0,
+                "falloffExponent": 5.0,
+                "innerRadius": 0.0,
+                "coneAngle": 45.0,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": false
+            }
+        }
+    }
+}

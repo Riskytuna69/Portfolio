@@ -1,0 +1,250 @@
+{
+    "entity0": {
+        "position": {
+            "x": 485.1584777832031,
+            "y": -97.32030487060547
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2838595976593411932
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_SMG"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 41.0,
+                    "y": 20.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "SMG",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "SMG",
+                    "fireRPM": 1200.0,
+                    "fireType": 1,
+                    "weaponType": 5,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 10,
+                    "magazineSize": 30,
+                    "spread": 5,
+                    "recoilPerShot": 8.0,
+                    "recoilWanderMultiplier": 15.0,
+                    "recoilWanderMax": 12.0,
+                    "recoilRecovery": 5.0,
+                    "recoilRecoveryMin": 1.0,
+                    "reloadTime": 1.5,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 1.0,
+                    "bulletSpeed": 30.0,
+                    "bulletSpeedRange": 1.0,
+                    "firePointPixel": {
+                        "x": 14.0,
+                        "y": 4.0
+                    },
+                    "holdPointPixel": {
+                        "x": 16.0,
+                        "y": 8.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 33.0,
+                        "y": 5.0
+                    },
+                    "shellEjectionPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.10000000149011612,
+                    "screenShakePerShot": 0.10000000149011612,
+                    "maximumScreenShake": 0.25,
+                    "enemyDamage": 8,
+                    "enemyCycleTimeBase": 1.5,
+                    "enemyCycleTimeBurst": 0.05999999865889549,
+                    "enemyBurstBullets": 5
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_SMG"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Assault"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 518.158447265625,
+            "y": -92.32030487060547
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 26.0,
+            "y": 13.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2848972067824734044
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_SMG"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 8134511739198865956,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 485.1600646972656,
+            "y": -97.31957244873047
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 41.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2856559797568016220
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 128,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    128,
+                    131
+                ]
+            }
+        }
+    }
+}

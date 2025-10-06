@@ -1,0 +1,314 @@
+{
+    "entity0": {
+        "position": {
+            "x": -950.0,
+            "y": -445.0
+        },
+        "zPosition": 0.20000000298023225,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3633805668828520655
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Lift_Usable"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -950.0,
+            "y": -445.0
+        },
+        "zPosition": 0.20000000298023225,
+        "rotation": 0.0,
+        "scale": {
+            "x": 14.0,
+            "y": 360.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4215468210636908393
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Lift_BGRail"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 150,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -950.0,
+            "y": -616.0
+        },
+        "zPosition": 0.550000011920929,
+        "rotation": 0.0,
+        "scale": {
+            "x": 82.0,
+            "y": 31.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 1
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4228087305588995630
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Lift_Main"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 151,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "13948323839911442681": {
+                "_active": true,
+                "openDirection": {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                "speed": 35.0,
+                "isOpen": false,
+                "openHeight": 350.0,
+                "openingAudio": {
+                    "name": ""
+                },
+                "closingAudio": {
+                    "name": ""
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -950.0,
+            "y": -628.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 82.0,
+            "y": 7.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 1
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4237216550634600156
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Collider"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -919.0,
+            "y": -611.0
+        },
+        "zPosition": 0.25,
+        "rotation": 0.0,
+        "scale": {
+            "x": 0.9999999403953552,
+            "y": 1.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4243777336517814967
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Button"
+            },
+            "2776810952330433612": {
+                "_active": true,
+                "type": 1,
+                "audioUse": {
+                    "name": "Lever"
+                },
+                "connectedEntity": {
+                    "entityUid": 4228087305588995630
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 18.0,
+                    "y": 31.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -919.0,
+            "y": -611.0
+        },
+        "zPosition": 0.25,
+        "rotation": 0.0,
+        "scale": {
+            "x": 17.999998092651368,
+            "y": 31.0
+        },
+        "parent": "entity4",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4251862045516907277
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 152,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 4,
+                "spriteID_Vec": [
+                    152,
+                    153,
+                    152,
+                    153
+                ]
+            }
+        }
+    }
+}

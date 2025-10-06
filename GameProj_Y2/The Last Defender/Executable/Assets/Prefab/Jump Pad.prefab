@@ -1,0 +1,81 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1000.0,
+            "y": -1410.0
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 30.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 1052885737782822252
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Jump Pad"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 60,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 0.800000011920929,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    61,
+                    60
+                ]
+            },
+            "17086287670346621326": {
+                "_active": true
+            }
+        }
+    }
+}

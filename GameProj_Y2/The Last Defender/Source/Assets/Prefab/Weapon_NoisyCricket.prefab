@@ -1,0 +1,172 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1190.9605712890626,
+            "y": -1396.462890625
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 16830443289692096458
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_NoisyCricket"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 13.0,
+                    "y": 8.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Uninited Weapon",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Noisy Cricket",
+                    "fireRPM": 60.0,
+                    "fireType": 0,
+                    "weaponType": 0,
+                    "burstCount": 1,
+                    "pelletCount": 10,
+                    "damagePerBullet": 50,
+                    "magazineSize": 1,
+                    "spread": 1,
+                    "recoilPerShot": 200.0,
+                    "recoilWanderMultiplier": 5.0,
+                    "recoilWanderMax": 20.0,
+                    "recoilRecovery": 0.75,
+                    "recoilRecoveryMin": 0.75,
+                    "reloadTime": 1.5,
+                    "bulletSize": 0.5,
+                    "bulletSpeed": 5.0,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": 17.0,
+                        "y": 3.0
+                    },
+                    "holdPointPixel": {
+                        "x": 16.0,
+                        "y": 8.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 3.0,
+                    "maximumScreenShake": 3.0
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Coin"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Pistol"
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1190.9605712890626,
+            "y": -1396.462158203125
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 13.0,
+            "y": 8.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 16840915038435035082
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 75,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    75,
+                    76
+                ]
+            }
+        }
+    }
+}

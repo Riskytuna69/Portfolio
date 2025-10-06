@@ -1,0 +1,35 @@
+{
+    "weaponName": "Noisy Cricket",
+    "fireRPM": 60.0,
+    "fireType": 0,
+    "weaponType": 0,
+    "burstCount": 1,
+    "pelletCount": 10,
+    "damagePerBullet": 50,
+    "magazineSize": 1,
+    "spread": 1,
+    "recoilPerShot": 200.0,
+    "recoilWanderMultiplier": 5.0,
+    "recoilWanderMax": 20.0,
+    "recoilRecovery": 0.75,
+    "recoilRecoveryMin": 0.75,
+    "reloadTime": 1.5,
+    "bulletSize": 0.5,
+    "bulletSpeed": 5.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 17.0,
+        "y": 3.0
+    },
+    "holdPointPixel": {
+        "x": 7.0,
+        "y": 8.0
+    },
+    "muzzleFlashPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 3.0,
+    "maximumScreenShake": 3.0
+}

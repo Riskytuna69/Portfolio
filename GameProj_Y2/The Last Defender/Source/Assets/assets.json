@@ -1,0 +1,4570 @@
+{
+    "sprites": [
+        {
+            "id": 0,
+            "name": "white",
+            "texturePath": "/Assets\\Images\\white.png",
+            "width": 1,
+            "height": 1,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Player_Walk_0",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Player_Walk_1",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Player_Walk_2",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Player_Walk_3",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Background_Game",
+            "texturePath": "/Assets\\Images\\Environment\\Background_Game.png",
+            "width": 200,
+            "height": 200,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Building",
+            "texturePath": "/Assets\\Images\\Environment\\Building.png",
+            "width": 88,
+            "height": 162,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Reactor_Core",
+            "texturePath": "/Assets\\Images\\Environment\\Reactor_Core.png",
+            "width": 155,
+            "height": 180,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Reactor_Stack",
+            "texturePath": "/Assets\\Images\\Environment\\Reactor_Stack.png",
+            "width": 138,
+            "height": 195,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 11,
+            "name": "UNUSED_1",
+            "texturePath": "/Assets\\Images\\Weapon\\Bullet.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Pistol",
+            "texturePath": "/Assets\\Images\\Weapon\\Pistol.png",
+            "width": 19,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Arm",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Arm.png",
+            "width": 28,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Alien_Walk_0",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\Alien_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Alien_Walk_1",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\Alien_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Alien_Walk_2",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\Alien_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Alien_Walk_3",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\Alien_Walk.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Alien_Arm",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\Alien_Arm.png",
+            "width": 30,
+            "height": 10,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Player_Jump_High",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Jump_High.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Player_Jump_Low",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Player_Jump_Low.png",
+            "width": 40,
+            "height": 67,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 22,
+            "name": "UNUSED_2",
+            "texturePath": "/Assets\\Images\\Weapon\\Bullet_Enemy.png",
+            "width": 21,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 23,
+            "name": "City_BG1",
+            "texturePath": "/Assets\\Images\\Environment\\City_BG1.png",
+            "width": 100,
+            "height": 100,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Start",
+            "texturePath": "/Assets\\Images\\UI\\Start.png",
+            "width": 40,
+            "height": 19,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Back",
+            "texturePath": "/Assets\\Images\\UI\\Back.png",
+            "width": 39,
+            "height": 18,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Button_3_1",
+            "texturePath": "/Assets\\Images\\UI\\Button_3_1.png",
+            "width": 60,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Button_3_1_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_3_1_Pressed.png",
+            "width": 60,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 32,
+            "name": "Button_4_1",
+            "texturePath": "/Assets\\Images\\UI\\Button_4_1.png",
+            "width": 80,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Button_4_1_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_4_1_Pressed.png",
+            "width": 80,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Button_5_1",
+            "texturePath": "/Assets\\Images\\UI\\Button_5_1.png",
+            "width": 100,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 35,
+            "name": "Button_5_1_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_5_1_Pressed.png",
+            "width": 100,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 36,
+            "name": "Button_6_1",
+            "texturePath": "/Assets\\Images\\UI\\Button_6_1.png",
+            "width": 120,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 37,
+            "name": "Button_6_1_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_6_1_Pressed.png",
+            "width": 120,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 39,
+            "name": "Button_5_2",
+            "texturePath": "/Assets\\Images\\UI\\Button_5_2.png",
+            "width": 50,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Button_5_2_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_5_2_Pressed.png",
+            "width": 50,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Item_Assault",
+            "texturePath": "/Assets\\Images\\Item\\Item_Assault.png",
+            "width": 46,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 46,
+            "name": "Item_Assault_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Assault_Raycast.png",
+            "width": 50,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 47,
+            "name": "Item_Healthpack",
+            "texturePath": "/Assets\\Images\\Item\\Item_Healthpack.png",
+            "width": 25,
+            "height": 25,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 48,
+            "name": "Item_Healthpack_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Healthpack_Raycast.png",
+            "width": 29,
+            "height": 29,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 49,
+            "name": "Item_Minigun",
+            "texturePath": "/Assets\\Images\\Item\\Item_Minigun.png",
+            "width": 60,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Item_Minigun_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Minigun_Raycast.png",
+            "width": 64,
+            "height": 18,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Item_Pistol",
+            "texturePath": "/Assets\\Images\\Item\\Item_Pistol.png",
+            "width": 20,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Item_Pistol_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Pistol_Raycast.png",
+            "width": 24,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 53,
+            "name": "Item_Shotgun",
+            "texturePath": "/Assets\\Images\\Item\\Item_Shotgun.png",
+            "width": 44,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 54,
+            "name": "Item_Shotgun_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Shotgun_Raycast.png",
+            "width": 48,
+            "height": 21,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 55,
+            "name": "Item_Sniper",
+            "texturePath": "/Assets\\Images\\Item\\Item_Sniper.png",
+            "width": 59,
+            "height": 24,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 56,
+            "name": "Item_Sniper_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Sniper_Raycast.png",
+            "width": 63,
+            "height": 28,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 57,
+            "name": "Interactable_Recorder",
+            "texturePath": "/Assets\\Images\\Interactable\\Interactable_Recorder.png",
+            "width": 14,
+            "height": 26,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 58,
+            "name": "Interactable_Recorder_Raycast",
+            "texturePath": "/Assets\\Images\\Interactable\\Interactable_Recorder_Raycast.png",
+            "width": 18,
+            "height": 30,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 60,
+            "name": "Jump_Pad_Off",
+            "texturePath": "/Assets\\Images\\Environment\\Jump_Pad_Off.png",
+            "width": 100,
+            "height": 30,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Jump_Pad_On",
+            "texturePath": "/Assets\\Images\\Environment\\Jump_Pad_On.png",
+            "width": 100,
+            "height": 30,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 63,
+            "name": "Background_Crate_Shelf",
+            "texturePath": "/Assets\\Images\\Environment\\Background_Crate_Shelf.png",
+            "width": 314,
+            "height": 166,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 64,
+            "name": "Background_Lift",
+            "texturePath": "/Assets\\Images\\Environment\\Background_Lift.png",
+            "width": 80,
+            "height": 166,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Lever_Off",
+            "texturePath": "/Assets\\Images\\Interactable\\Lever_Off.png",
+            "width": 22,
+            "height": 49,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 68,
+            "name": "Lever_Off_Raycast",
+            "texturePath": "/Assets\\Images\\Interactable\\Lever_Off_Raycast.png",
+            "width": 26,
+            "height": 53,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 69,
+            "name": "Lever_On",
+            "texturePath": "/Assets\\Images\\Interactable\\Lever_On.png",
+            "width": 22,
+            "height": 49,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 70,
+            "name": "Container",
+            "texturePath": "/Assets\\Images\\UI\\Container.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 71,
+            "name": "Container_Locked",
+            "texturePath": "/Assets\\Images\\UI\\Container_Locked.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 72,
+            "name": "Container_Selected",
+            "texturePath": "/Assets\\Images\\UI\\Container_Selected.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 73,
+            "name": "Shield",
+            "texturePath": "/Assets\\Images\\Projectiles\\Shield.png",
+            "width": 33,
+            "height": 106,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Background_Control_Room",
+            "texturePath": "/Assets\\Images\\Environment\\Background_Control_Room.png",
+            "width": 482,
+            "height": 198,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 77,
+            "name": "MF_Assault_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Assault\\MF_Assault_0.png",
+            "width": 25,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 78,
+            "name": "MF_Assault_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Assault\\MF_Assault_1.png",
+            "width": 25,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 79,
+            "name": "MF_Assault_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Assault\\MF_Assault_2.png",
+            "width": 25,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 80,
+            "name": "MF_Assault_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Assault\\MF_Assault_3.png",
+            "width": 25,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 81,
+            "name": "MF_Minigun_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Minigun'\\MF_Minigun_0.png",
+            "width": 25,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 82,
+            "name": "MF_Minigun_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Minigun'\\MF_Minigun_1.png",
+            "width": 25,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 83,
+            "name": "MF_Minigun_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Minigun'\\MF_Minigun_2.png",
+            "width": 25,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 84,
+            "name": "MF_Minigun_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Minigun'\\MF_Minigun_3.png",
+            "width": 25,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 85,
+            "name": "MF_Pistol_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Pistol\\MF_Pistol_0.png",
+            "width": 22,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 86,
+            "name": "MF_Pistol_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Pistol\\MF_Pistol_1.png",
+            "width": 22,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 87,
+            "name": "MF_Pistol_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Pistol\\MF_Pistol_2.png",
+            "width": 22,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 88,
+            "name": "MF_Pistol_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Pistol\\MF_Pistol_3.png",
+            "width": 22,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 89,
+            "name": "MF_Shotgun_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Shotgun\\MF_Shotgun_0.png",
+            "width": 22,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 90,
+            "name": "MF_Shotgun_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Shotgun\\MF_Shotgun_1.png",
+            "width": 22,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 91,
+            "name": "MF_Shotgun_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Shotgun\\MF_Shotgun_2.png",
+            "width": 22,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 92,
+            "name": "MF_Shotgun_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Shotgun\\MF_Shotgun_3.png",
+            "width": 22,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 93,
+            "name": "MF_Sniper_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Sniper\\MF_Sniper_0.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 94,
+            "name": "MF_Sniper_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Sniper\\MF_Sniper_1.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 95,
+            "name": "MF_Sniper_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Sniper\\MF_Sniper_2.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 96,
+            "name": "MF_Sniper_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Sniper\\MF_Sniper_3.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 97,
+            "name": "null",
+            "texturePath": "/Assets\\Images\\null.png",
+            "width": 1,
+            "height": 1,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 98,
+            "name": "Buildings_Middle",
+            "texturePath": "/Assets\\Images\\Environment\\Buildings_Back.png",
+            "width": 500,
+            "height": 250,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 99,
+            "name": "Buildings_Front",
+            "texturePath": "/Assets\\Images\\Environment\\Buildings_Front.png",
+            "width": 500,
+            "height": 250,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 100,
+            "name": "Buildings_Back",
+            "texturePath": "/Assets\\Images\\Environment\\Buildings_Middle.png",
+            "width": 500,
+            "height": 250,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 101,
+            "name": "Icon_Health",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Health.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 102,
+            "name": "Icon_Shield",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Shield.png",
+            "width": 12,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 104,
+            "name": "Title",
+            "texturePath": "/Assets\\Images\\UI\\Title.png",
+            "width": 999,
+            "height": 657,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 105,
+            "name": "Alien_Drop",
+            "texturePath": "/Assets\\Images\\Environment\\Alien_Drop.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 108,
+            "name": "Icon_Magazine",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Magazine.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 110,
+            "name": "Laser",
+            "texturePath": "/Assets\\Images\\Projectiles\\Laser.png",
+            "width": 1,
+            "height": 9,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 113,
+            "name": "Icon_A",
+            "texturePath": "/Assets\\Images\\UI\\Icon_A.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 114,
+            "name": "Icon_B",
+            "texturePath": "/Assets\\Images\\UI\\Icon_B.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 115,
+            "name": "Icon_Cursor",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Cursor.png",
+            "width": 11,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 116,
+            "name": "Icon_D",
+            "texturePath": "/Assets\\Images\\UI\\Icon_D.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 117,
+            "name": "Icon_F",
+            "texturePath": "/Assets\\Images\\UI\\Icon_F.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 118,
+            "name": "Icon_Mouse_Left",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Mouse_Left.png",
+            "width": 9,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 119,
+            "name": "Icon_Mouse_Right",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Mouse_Right.png",
+            "width": 9,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 120,
+            "name": "Icon_Scroll_Set",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Scroll_Set.png",
+            "width": 59,
+            "height": 26,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 121,
+            "name": "Icon_Space",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Space.png",
+            "width": 31,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 125,
+            "name": "Pillar",
+            "texturePath": "/Assets\\Images\\Environment\\Pillar.png",
+            "width": 400,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 126,
+            "name": "Item_Railgun",
+            "texturePath": "/Assets\\Images\\Item\\Item_Railgun.png",
+            "width": 53,
+            "height": 21,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 127,
+            "name": "Item_Railgun_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_Railgun_Raycast.png",
+            "width": 57,
+            "height": 25,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 128,
+            "name": "Item_SMG",
+            "texturePath": "/Assets\\Images\\Item\\Item_SMG.png",
+            "width": 41,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 131,
+            "name": "Item_SMG_Raycast",
+            "texturePath": "/Assets\\Images\\Item\\Item_SMG_Raycast.png",
+            "width": 45,
+            "height": 24,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 132,
+            "name": "MF_SMG_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_SMG\\MF_SMG_0.png",
+            "width": 26,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 133,
+            "name": "MF_SMG_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_SMG\\MF_SMG_1.png",
+            "width": 26,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 134,
+            "name": "MF_SMG_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_SMG\\MF_SMG_2.png",
+            "width": 26,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 135,
+            "name": "MF_SMG_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_SMG\\MF_SMG_3.png",
+            "width": 26,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 136,
+            "name": "MF_Railgun_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Railgun\\MF_Railgun_0.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 137,
+            "name": "MF_Railgun_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Railgun\\MF_Railgun_1.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 138,
+            "name": "MF_Railgun_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Railgun\\MF_Railgun_2.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 139,
+            "name": "MF_Railgun_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Muzzleflash_Railgun\\MF_Railgun_3.png",
+            "width": 35,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 145,
+            "name": "Reactor_Egg",
+            "texturePath": "/Assets\\Images\\Environment\\Reactor_Egg.png",
+            "width": 26,
+            "height": 40,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 146,
+            "name": "Reactor_Egg_On",
+            "texturePath": "/Assets\\Images\\Environment\\Reactor_Egg_On.png",
+            "width": 26,
+            "height": 40,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 147,
+            "name": "Reactor_Egg_Raycast",
+            "texturePath": "/Assets\\Images\\Environment\\Reactor_Egg_Raycast.png",
+            "width": 30,
+            "height": 44,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 148,
+            "name": "Laser_Boss",
+            "texturePath": "/Assets\\Images\\Projectiles\\Laser_Boss.png",
+            "width": 80,
+            "height": 1,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 149,
+            "name": "Door",
+            "texturePath": "/Assets\\Images\\Environment\\Door.png",
+            "width": 8,
+            "height": 180,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 154,
+            "name": "Blocker_5_2",
+            "texturePath": "/Assets\\Images\\UI\\Blocker_5_2.png",
+            "width": 52,
+            "height": 22,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 155,
+            "name": "Sphere_Light_On",
+            "texturePath": "/Assets\\Images\\Environment\\Sphere_Light_On.png",
+            "width": 32,
+            "height": 32,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 156,
+            "name": "Panel_2",
+            "texturePath": "/Assets\\Images\\UI\\Panel_2.png",
+            "width": 250,
+            "height": 200,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 157,
+            "name": "Alarm_Light_On",
+            "texturePath": "/Assets\\Images\\Environment\\Alarm_Light_On.png",
+            "width": 32,
+            "height": 32,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 159,
+            "name": "Table_Railgun",
+            "texturePath": "/Assets\\Images\\Environment\\Table_Railgun.png",
+            "width": 105,
+            "height": 40,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 160,
+            "name": "Table_Railgun_BG",
+            "texturePath": "/Assets\\Images\\Environment\\Table_Railgun_BG.png",
+            "width": 29,
+            "height": 35,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 161,
+            "name": "Crate_FG",
+            "texturePath": "/Assets\\Images\\Environment\\Crate_FG.png",
+            "width": 48,
+            "height": 48,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 164,
+            "name": "Icon_Escape",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Escape.png",
+            "width": 25,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 165,
+            "name": "SmallWhiteCircle",
+            "texturePath": "/Assets\\Images\\Boss\\SmallWhiteCircle.png",
+            "width": 5,
+            "height": 5,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 166,
+            "name": "Slider_Back",
+            "texturePath": "/Assets\\Images\\UI\\Slider_Back.png",
+            "width": 134,
+            "height": 18,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 167,
+            "name": "Slider_Button",
+            "texturePath": "/Assets\\Images\\UI\\Slider_Button.png",
+            "width": 8,
+            "height": 10,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 168,
+            "name": "Slider_Button_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Slider_Button_Pressed.png",
+            "width": 8,
+            "height": 10,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 169,
+            "name": "Checkbox_Inactive",
+            "texturePath": "/Assets\\Images\\UI\\Checkbox_Inactive.png",
+            "width": 21,
+            "height": 21,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 170,
+            "name": "Checkbox_Active",
+            "texturePath": "/Assets\\Images\\UI\\Checkbox_Active.png",
+            "width": 21,
+            "height": 21,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 171,
+            "name": "Instruction",
+            "texturePath": "/Assets\\Images\\UI\\Instruction.png",
+            "width": 222,
+            "height": 163,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 172,
+            "name": "Boss_Explosion_0",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.0714285746216774,
+                1.0
+            ]
+        },
+        {
+            "id": 173,
+            "name": "Boss_Explosion_1",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.0714285746216774,
+                0.0,
+                0.1428571492433548,
+                1.0
+            ]
+        },
+        {
+            "id": 174,
+            "name": "Boss_Explosion_2",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.1428571492433548,
+                0.0,
+                0.2142857313156128,
+                1.0
+            ]
+        },
+        {
+            "id": 175,
+            "name": "Boss_Explosion_3",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.2142857313156128,
+                0.0,
+                0.2857142984867096,
+                1.0
+            ]
+        },
+        {
+            "id": 176,
+            "name": "Boss_Explosion_4",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.2857142984867096,
+                0.0,
+                0.3571428656578064,
+                1.0
+            ]
+        },
+        {
+            "id": 177,
+            "name": "Boss_Explosion_5",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.3571428656578064,
+                0.0,
+                0.4285714626312256,
+                1.0
+            ]
+        },
+        {
+            "id": 178,
+            "name": "Boss_Explosion_6",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.4285714626312256,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 179,
+            "name": "Boss_Explosion_7",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.5714285969734192,
+                1.0
+            ]
+        },
+        {
+            "id": 180,
+            "name": "Boss_Explosion_8",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.5714285969734192,
+                0.0,
+                0.6428571939468384,
+                1.0
+            ]
+        },
+        {
+            "id": 181,
+            "name": "Boss_Explosion_9",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.6428571939468384,
+                0.0,
+                0.7142857313156128,
+                1.0
+            ]
+        },
+        {
+            "id": 182,
+            "name": "Boss_Explosion_10",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.7142857313156128,
+                0.0,
+                0.785714328289032,
+                1.0
+            ]
+        },
+        {
+            "id": 183,
+            "name": "Boss_Explosion_11",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.785714328289032,
+                0.0,
+                0.8571429252624512,
+                1.0
+            ]
+        },
+        {
+            "id": 184,
+            "name": "Boss_Explosion_12",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.8571429252624512,
+                0.0,
+                0.9285714626312256,
+                1.0
+            ]
+        },
+        {
+            "id": 185,
+            "name": "Boss_Explosion_13",
+            "texturePath": "/Assets\\Images\\Boss\\Boss_Explosion.png",
+            "width": 64,
+            "height": 84,
+            "texCoords": [
+                0.9285714626312256,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 187,
+            "name": "Icon_Gear",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Gear.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 188,
+            "name": "Button_Square",
+            "texturePath": "/Assets\\Images\\UI\\Button_Square.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 189,
+            "name": "Button_Square_Pressed",
+            "texturePath": "/Assets\\Images\\UI\\Button_Square_Pressed.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 190,
+            "name": "BossGun",
+            "texturePath": "/Assets\\Images\\Boss\\BossGun.png",
+            "width": 32,
+            "height": 50,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 191,
+            "name": "BossLaserPanel",
+            "texturePath": "/Assets\\Images\\Boss\\BossLaserPanel.png",
+            "width": 195,
+            "height": 29,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 192,
+            "name": "BossShaded",
+            "texturePath": "/Assets\\Images\\Boss\\BossShaded.png",
+            "width": 712,
+            "height": 189,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 193,
+            "name": "GunDamaged",
+            "texturePath": "/Assets\\Images\\Boss\\GunDamaged.png",
+            "width": 32,
+            "height": 50,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 194,
+            "name": "LaserPanelDamaged",
+            "texturePath": "/Assets\\Images\\Boss\\LaserPanelDamaged.png",
+            "width": 195,
+            "height": 29,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 195,
+            "name": "Turret_Base",
+            "texturePath": "/Assets\\Images\\Turret\\Turret_Base.png",
+            "width": 64,
+            "height": 29,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 196,
+            "name": "Turret_Gun",
+            "texturePath": "/Assets\\Images\\Turret\\Turret_Gun.png",
+            "width": 50,
+            "height": 32,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 200,
+            "name": "Checkpoint_Base",
+            "texturePath": "/Assets\\Images\\Environment\\Checkpoint\\Checkpoint_Base.png",
+            "width": 30,
+            "height": 13,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 204,
+            "name": "Panel",
+            "texturePath": "/Assets\\Images\\UI\\Panel.png",
+            "width": 200,
+            "height": 56,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 205,
+            "name": "Panel_Reversed",
+            "texturePath": "/Assets\\Images\\UI\\Panel_Reversed.png",
+            "width": 200,
+            "height": 56,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 206,
+            "name": "Boss75",
+            "texturePath": "/Assets\\Images\\Boss75.png",
+            "width": 712,
+            "height": 189,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 207,
+            "name": "Boss50",
+            "texturePath": "/Assets\\Images\\Boss50.png",
+            "width": 712,
+            "height": 189,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 208,
+            "name": "Boss25",
+            "texturePath": "/Assets\\Images\\Boss25.png",
+            "width": 712,
+            "height": 189,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 209,
+            "name": "Boss0",
+            "texturePath": "/Assets\\Images\\Boss0.png",
+            "width": 712,
+            "height": 189,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 211,
+            "name": "Checkpoint_Hologram",
+            "texturePath": "/Assets\\Images\\Environment\\Checkpoint_Hologram.png",
+            "width": 22,
+            "height": 29,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 212,
+            "name": "Fan_Block_Container",
+            "texturePath": "/Assets\\Images\\Environment\\Fan_Block_Container.png",
+            "width": 40,
+            "height": 40,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 213,
+            "name": "Fan_Block_Fan",
+            "texturePath": "/Assets\\Images\\Environment\\Fan_Block_Fan.png",
+            "width": 26,
+            "height": 26,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 220,
+            "name": "DropPodDisintegrateSheet_0",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.07692307978868485,
+                1.0
+            ]
+        },
+        {
+            "id": 221,
+            "name": "DropPodDisintegrateSheet_1",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.07692307978868485,
+                0.0,
+                0.1538461595773697,
+                1.0
+            ]
+        },
+        {
+            "id": 222,
+            "name": "DropPodDisintegrateSheet_2",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.1538461595773697,
+                0.0,
+                0.23076924681663514,
+                1.0
+            ]
+        },
+        {
+            "id": 223,
+            "name": "DropPodDisintegrateSheet_3",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.23076924681663514,
+                0.0,
+                0.3076923191547394,
+                1.0
+            ]
+        },
+        {
+            "id": 224,
+            "name": "DropPodDisintegrateSheet_4",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.3076923191547394,
+                0.0,
+                0.38461539149284365,
+                1.0
+            ]
+        },
+        {
+            "id": 225,
+            "name": "DropPodDisintegrateSheet_5",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.38461539149284365,
+                0.0,
+                0.46153849363327029,
+                1.0
+            ]
+        },
+        {
+            "id": 226,
+            "name": "DropPodDisintegrateSheet_6",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.46153849363327029,
+                0.0,
+                0.5384615659713745,
+                1.0
+            ]
+        },
+        {
+            "id": 227,
+            "name": "DropPodDisintegrateSheet_7",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.5384615659713745,
+                0.0,
+                0.6153846383094788,
+                1.0
+            ]
+        },
+        {
+            "id": 228,
+            "name": "DropPodDisintegrateSheet_8",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.6153846383094788,
+                0.0,
+                0.692307710647583,
+                1.0
+            ]
+        },
+        {
+            "id": 229,
+            "name": "DropPodDisintegrateSheet_9",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.692307710647583,
+                0.0,
+                0.7692307829856873,
+                1.0
+            ]
+        },
+        {
+            "id": 230,
+            "name": "DropPodDisintegrateSheet_10",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.7692307829856873,
+                0.0,
+                0.8461538553237915,
+                1.0
+            ]
+        },
+        {
+            "id": 231,
+            "name": "DropPodDisintegrateSheet_11",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.8461538553237915,
+                0.0,
+                0.9230769872665405,
+                1.0
+            ]
+        },
+        {
+            "id": 232,
+            "name": "DropPodDisintegrateSheet_12",
+            "texturePath": "/Assets\\Images\\Environment\\DropPodDisintegrateSheet.png",
+            "width": 40,
+            "height": 69,
+            "texCoords": [
+                0.9230769872665405,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 235,
+            "name": "wall",
+            "texturePath": "/Assets\\Images\\Environment\\wall.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 236,
+            "name": "ceilinglamp",
+            "texturePath": "/Assets\\Images\\Environment\\ceilinglamp.png",
+            "width": 16,
+            "height": 5,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 237,
+            "name": "casing",
+            "texturePath": "/Assets\\Images\\Projectiles\\casing.png",
+            "width": 6,
+            "height": 15,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 238,
+            "name": "Bullet_Impact_Blue_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.1666666716337204,
+                1.0
+            ]
+        },
+        {
+            "id": 239,
+            "name": "Bullet_Impact_Blue_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.1666666716337204,
+                0.0,
+                0.3333333432674408,
+                1.0
+            ]
+        },
+        {
+            "id": 240,
+            "name": "Bullet_Impact_Blue_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.3333333432674408,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 241,
+            "name": "Bullet_Impact_Blue_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.6666666865348816,
+                1.0
+            ]
+        },
+        {
+            "id": 242,
+            "name": "Bullet_Impact_Blue_4",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.6666666865348816,
+                0.0,
+                0.8333333730697632,
+                1.0
+            ]
+        },
+        {
+            "id": 243,
+            "name": "Bullet_Impact_Blue_5",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Blue.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.8333333730697632,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 244,
+            "name": "Bullet_Impact_Red_0",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.1666666716337204,
+                1.0
+            ]
+        },
+        {
+            "id": 245,
+            "name": "Bullet_Impact_Red_1",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.1666666716337204,
+                0.0,
+                0.3333333432674408,
+                1.0
+            ]
+        },
+        {
+            "id": 246,
+            "name": "Bullet_Impact_Red_2",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.3333333432674408,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 247,
+            "name": "Bullet_Impact_Red_3",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.6666666865348816,
+                1.0
+            ]
+        },
+        {
+            "id": 248,
+            "name": "Bullet_Impact_Red_4",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.6666666865348816,
+                0.0,
+                0.8333333730697632,
+                1.0
+            ]
+        },
+        {
+            "id": 249,
+            "name": "Bullet_Impact_Red_5",
+            "texturePath": "/Assets\\Images\\Projectiles\\Bullet_Impact_Red.png",
+            "width": 20,
+            "height": 20,
+            "texCoords": [
+                0.8333333730697632,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 250,
+            "name": "CS01_CompOn_P1_0",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 251,
+            "name": "CS01_CompOn_P1_1",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 252,
+            "name": "CS01_CompOn_P1_2",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 253,
+            "name": "CS01_CompOn_P1_3",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 254,
+            "name": "CS01_CompOn_P1_4",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 274,
+            "name": "CS01_CompOn_P2_0",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 275,
+            "name": "CS01_CompOn_P2_1",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 276,
+            "name": "CS01_CompOn_P2_2",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 277,
+            "name": "CS01_CompOn_P2_3",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 278,
+            "name": "CS01_CompOn_P2_4",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 279,
+            "name": "CS01_CompOn_P3_0",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 280,
+            "name": "CS01_CompOn_P3_1",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 281,
+            "name": "CS01_CompOn_P3_2",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 282,
+            "name": "CS01_CompOn_P3_3",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 283,
+            "name": "CS01_CompOn_P3_4",
+            "texturePath": "/Assets\\Images\\CS01_CompOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 288,
+            "name": "CS02_Border_P2_0",
+            "texturePath": "/Assets\\Images\\CS02_Border_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 289,
+            "name": "CS02_Border_P2_1",
+            "texturePath": "/Assets\\Images\\CS02_Border_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 290,
+            "name": "CS02_Border_P2_2",
+            "texturePath": "/Assets\\Images\\CS02_Border_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 291,
+            "name": "CS02_Border_P2_3",
+            "texturePath": "/Assets\\Images\\CS02_Border_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 292,
+            "name": "CS03_Header_P1_0",
+            "texturePath": "/Assets\\Images\\CS03_Header_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 293,
+            "name": "CS03_Header_P1_1",
+            "texturePath": "/Assets\\Images\\CS03_Header_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 294,
+            "name": "CS03_Header_P1_2",
+            "texturePath": "/Assets\\Images\\CS03_Header_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 295,
+            "name": "CS03_Header_P1_3",
+            "texturePath": "/Assets\\Images\\CS03_Header_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 296,
+            "name": "CS03_Header_P1_4",
+            "texturePath": "/Assets\\Images\\CS03_Header_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 297,
+            "name": "CS03_Header_P2_0",
+            "texturePath": "/Assets\\Images\\CS03_Header_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 298,
+            "name": "CS03_Header_P2_1",
+            "texturePath": "/Assets\\Images\\CS03_Header_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 299,
+            "name": "CS03_Header_P2_2",
+            "texturePath": "/Assets\\Images\\CS03_Header_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 300,
+            "name": "CS03_Header_P2_3",
+            "texturePath": "/Assets\\Images\\CS03_Header_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 301,
+            "name": "CS03_Header_P2_4",
+            "texturePath": "/Assets\\Images\\CS03_Header_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 302,
+            "name": "CS03_Header_P3_0",
+            "texturePath": "/Assets\\Images\\CS03_Header_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 303,
+            "name": "CS03_Header_P3_1",
+            "texturePath": "/Assets\\Images\\CS03_Header_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 304,
+            "name": "CS03_Header_P3_2",
+            "texturePath": "/Assets\\Images\\CS03_Header_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 305,
+            "name": "CS03_Header_P3_3",
+            "texturePath": "/Assets\\Images\\CS03_Header_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 306,
+            "name": "CS03_Header_P3_4",
+            "texturePath": "/Assets\\Images\\CS03_Header_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 307,
+            "name": "CS03_Header_P4_0",
+            "texturePath": "/Assets\\Images\\CS03_Header_P4.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 308,
+            "name": "CS03_Header_P4_1",
+            "texturePath": "/Assets\\Images\\CS03_Header_P4.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 309,
+            "name": "CS03_Header_P4_2",
+            "texturePath": "/Assets\\Images\\CS03_Header_P4.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 310,
+            "name": "CS03_Header_P4_3",
+            "texturePath": "/Assets\\Images\\CS03_Header_P4.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 311,
+            "name": "CS03_Header_P4_4",
+            "texturePath": "/Assets\\Images\\CS03_Header_P4.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 312,
+            "name": "CS04_Protocol_P1_0",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 313,
+            "name": "CS04_Protocol_P1_1",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 314,
+            "name": "CS04_Protocol_P1_2",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 315,
+            "name": "CS04_Protocol_P1_3",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 316,
+            "name": "CS04_Protocol_P2_0",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.3333333432674408,
+                1.0
+            ]
+        },
+        {
+            "id": 317,
+            "name": "CS04_Protocol_P2_1",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.3333333432674408,
+                0.0,
+                0.6666666865348816,
+                1.0
+            ]
+        },
+        {
+            "id": 318,
+            "name": "CS04_Protocol_P2_2",
+            "texturePath": "/Assets\\Images\\CS04_Protocol_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6666666865348816,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 319,
+            "name": "CS05_LoopProtocolBlink_0",
+            "texturePath": "/Assets\\Images\\CS05_LoopProtocolBlink.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 320,
+            "name": "CS05_LoopProtocolBlink_1",
+            "texturePath": "/Assets\\Images\\CS05_LoopProtocolBlink.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 321,
+            "name": "CS06_Wiring_P1_0",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 322,
+            "name": "CS06_Wiring_P1_1",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 323,
+            "name": "CS06_Wiring_P1_2",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 324,
+            "name": "CS06_Wiring_P1_3",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 325,
+            "name": "CS06_Wiring_P2_0",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 326,
+            "name": "CS06_Wiring_P2_1",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 327,
+            "name": "CS06_Wiring_P2_2",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 328,
+            "name": "CS06_Wiring_P2_3",
+            "texturePath": "/Assets\\Images\\CS06_Wiring_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 329,
+            "name": "CS07_VisorOn_P1_0",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 330,
+            "name": "CS07_VisorOn_P1_1",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 331,
+            "name": "CS07_VisorOn_P1_2",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 332,
+            "name": "CS07_VisorOn_P1_3",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 333,
+            "name": "CS07_VisorOn_P1_4",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 334,
+            "name": "CS07_VisorOn_P2_0",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 335,
+            "name": "CS07_VisorOn_P2_1",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 336,
+            "name": "CS07_VisorOn_P2_2",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 337,
+            "name": "CS07_VisorOn_P2_3",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 338,
+            "name": "CS07_VisorOn_P2_4",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P2.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 339,
+            "name": "CS07_VisorOn_P3_0",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.3333333432674408,
+                1.0
+            ]
+        },
+        {
+            "id": 340,
+            "name": "CS07_VisorOn_P3_1",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.3333333432674408,
+                0.0,
+                0.6666666865348816,
+                1.0
+            ]
+        },
+        {
+            "id": 341,
+            "name": "CS07_VisorOn_P3_2",
+            "texturePath": "/Assets\\Images\\CS07_VisorOn_P3.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6666666865348816,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 344,
+            "name": "CS02_Border_P1_0",
+            "texturePath": "/Assets\\Images\\CS02_Border_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.20000000298023225,
+                1.0
+            ]
+        },
+        {
+            "id": 345,
+            "name": "CS02_Border_P1_1",
+            "texturePath": "/Assets\\Images\\CS02_Border_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.20000000298023225,
+                0.0,
+                0.4000000059604645,
+                1.0
+            ]
+        },
+        {
+            "id": 346,
+            "name": "CS02_Border_P1_2",
+            "texturePath": "/Assets\\Images\\CS02_Border_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.4000000059604645,
+                0.0,
+                0.6000000238418579,
+                1.0
+            ]
+        },
+        {
+            "id": 347,
+            "name": "CS02_Border_P1_3",
+            "texturePath": "/Assets\\Images\\CS02_Border_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.6000000238418579,
+                0.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        {
+            "id": 348,
+            "name": "CS02_Border_P1_4",
+            "texturePath": "/Assets\\Images\\CS02_Border_P1.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.800000011920929,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 349,
+            "name": "CS03_Header_P5_0",
+            "texturePath": "/Assets\\Images\\CS03_Header_P5.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.25,
+                1.0
+            ]
+        },
+        {
+            "id": 350,
+            "name": "CS03_Header_P5_1",
+            "texturePath": "/Assets\\Images\\CS03_Header_P5.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.25,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 351,
+            "name": "CS03_Header_P5_2",
+            "texturePath": "/Assets\\Images\\CS03_Header_P5.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                0.75,
+                1.0
+            ]
+        },
+        {
+            "id": 352,
+            "name": "CS03_Header_P5_3",
+            "texturePath": "/Assets\\Images\\CS03_Header_P5.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.75,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 353,
+            "name": "CS08_LoopVisor_0",
+            "texturePath": "/Assets\\Images\\CS08_LoopVisor.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.0,
+                0.0,
+                0.5,
+                1.0
+            ]
+        },
+        {
+            "id": 354,
+            "name": "CS08_LoopVisor_1",
+            "texturePath": "/Assets\\Images\\CS08_LoopVisor.png",
+            "width": 800,
+            "height": 600,
+            "texCoords": [
+                0.5,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 355,
+            "name": "Panel_Wave_Phase",
+            "texturePath": "/Assets\\Images\\UI\\Panel_Wave_Phase.png",
+            "width": 400,
+            "height": 56,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 356,
+            "name": "wire",
+            "texturePath": "/Assets\\Images\\Environment\\wire.png",
+            "width": 16,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 357,
+            "name": "Icon_Person",
+            "texturePath": "/Assets\\Images\\UI\\Icon_Person.png",
+            "width": 12,
+            "height": 12,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 359,
+            "name": "DigiCredit",
+            "texturePath": "/Assets\\Images\\DigiCredit.png",
+            "width": 1917,
+            "height": 1076,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 361,
+            "name": "Background_Main_Menu",
+            "texturePath": "/Assets\\Images\\UI\\Background_Main_Menu.png",
+            "width": 1920,
+            "height": 3240,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 362,
+            "name": "PlayerHead",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Head.png",
+            "width": 15,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 363,
+            "name": "PlayerHip",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Hip.png",
+            "width": 16,
+            "height": 14,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 364,
+            "name": "PlayerLowerLeg",
+            "texturePath": "/Assets\\Images\\Character\\Player\\LowerLeg.png",
+            "width": 12,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 365,
+            "name": "PlayerTorso",
+            "texturePath": "/Assets\\Images\\Character\\Player\\Torso.png",
+            "width": 18,
+            "height": 21,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 366,
+            "name": "PlayerUpperLeg",
+            "texturePath": "/Assets\\Images\\Character\\Player\\UpperLeg.png",
+            "width": 10,
+            "height": 16,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 367,
+            "name": "EnemyBack",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\EnemyBack.png",
+            "width": 8,
+            "height": 19,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 368,
+            "name": "EnemyHead",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\EnemyHead.png",
+            "width": 17,
+            "height": 17,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 369,
+            "name": "EnemyLowerLeg",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\EnemyLowerLeg.png",
+            "width": 15,
+            "height": 18,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 370,
+            "name": "EnemyTorso",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\EnemyTorso.png",
+            "width": 19,
+            "height": 23,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "id": 371,
+            "name": "EnemyUpperLeg",
+            "texturePath": "/Assets\\Images\\Character\\Alien\\Basic\\EnemyUpperLeg.png",
+            "width": 16,
+            "height": 23,
+            "texCoords": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+            ]
+        }
+    ],
+    "animations": [
+        {
+            "name": "Alien_Walk",
+            "width": 40,
+            "height": 67,
+            "totalFrames": 4,
+            "frames": [
+                {
+                    "spriteID": 15,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 16,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 17,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 18,
+                    "duration": 0.10000000149011612
+                }
+            ]
+        },
+        {
+            "name": "Boss_Explosion",
+            "width": 64,
+            "height": 84,
+            "totalFrames": 14,
+            "frames": [
+                {
+                    "spriteID": 172,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 173,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 174,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 175,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 176,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 177,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 178,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 179,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 180,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 181,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 182,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 183,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 184,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 185,
+                    "duration": 0.05000000074505806
+                }
+            ]
+        },
+        {
+            "name": "Bullet_Impact_Blue",
+            "width": 20,
+            "height": 20,
+            "totalFrames": 6,
+            "frames": [
+                {
+                    "spriteID": 238,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 239,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 240,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 241,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 242,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 243,
+                    "duration": 0.05000000074505806
+                }
+            ]
+        },
+        {
+            "name": "Bullet_Impact_Red",
+            "width": 20,
+            "height": 20,
+            "totalFrames": 6,
+            "frames": [
+                {
+                    "spriteID": 244,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 245,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 246,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 247,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 248,
+                    "duration": 0.05000000074505806
+                },
+                {
+                    "spriteID": 249,
+                    "duration": 0.05000000074505806
+                }
+            ]
+        },
+        {
+            "name": "ComputerScene",
+            "width": 800,
+            "height": 600,
+            "totalFrames": 55,
+            "frames": [
+                {
+                    "spriteID": 250,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 251,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 252,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 253,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 254,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 274,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 275,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 276,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 277,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 278,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 279,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 280,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 281,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 282,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 283,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 344,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 345,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 346,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 347,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 348,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 288,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 289,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 290,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 291,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 292,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 293,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 294,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 295,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 296,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 297,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 298,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 299,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 300,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 301,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 302,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 303,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 304,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 305,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 306,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 307,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 308,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 309,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 310,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 311,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 349,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 350,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 351,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 352,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 312,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 313,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 314,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 315,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 316,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 317,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 318,
+                    "duration": 0.20000000298023225
+                }
+            ]
+        },
+        {
+            "name": "DropPodDisintegrate",
+            "width": 40,
+            "height": 69,
+            "totalFrames": 13,
+            "frames": [
+                {
+                    "spriteID": 220,
+                    "duration": 0.4000000059604645
+                },
+                {
+                    "spriteID": 221,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 222,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 223,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 224,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 225,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 226,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 227,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 228,
+                    "duration": 0.09000000357627869
+                },
+                {
+                    "spriteID": 229,
+                    "duration": 0.07999999821186066
+                },
+                {
+                    "spriteID": 230,
+                    "duration": 0.07000000029802323
+                },
+                {
+                    "spriteID": 231,
+                    "duration": 0.05999999865889549
+                },
+                {
+                    "spriteID": 232,
+                    "duration": 0.05000000074505806
+                }
+            ]
+        },
+        {
+            "name": "LoopWiring",
+            "width": 800,
+            "height": 600,
+            "totalFrames": 2,
+            "frames": [
+                {
+                    "spriteID": 353,
+                    "duration": 0.20000000298023225
+                },
+                {
+                    "spriteID": 354,
+                    "duration": 0.20000000298023225
+                }
+            ]
+        },
+        {
+            "name": "MF_Assault",
+            "width": 25,
+            "height": 13,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 77,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 78,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 79,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 80,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_Minigun",
+            "width": 25,
+            "height": 17,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 81,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 82,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 83,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 84,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_Pistol",
+            "width": 22,
+            "height": 13,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 85,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 86,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 87,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 88,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_Railgun",
+            "width": 35,
+            "height": 17,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 136,
+                    "duration": 0.03999999910593033
+                },
+                {
+                    "spriteID": 137,
+                    "duration": 0.03999999910593033
+                },
+                {
+                    "spriteID": 138,
+                    "duration": 0.03999999910593033
+                },
+                {
+                    "spriteID": 139,
+                    "duration": 0.03999999910593033
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_SMG",
+            "width": 26,
+            "height": 13,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 132,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 133,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 134,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 135,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_Shotgun",
+            "width": 22,
+            "height": 20,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 89,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 90,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 91,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 92,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "MF_Sniper",
+            "width": 35,
+            "height": 17,
+            "totalFrames": 5,
+            "frames": [
+                {
+                    "spriteID": 93,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 94,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 95,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 96,
+                    "duration": 0.029999999329447748
+                },
+                {
+                    "spriteID": 97,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "Player_Idle",
+            "width": 40,
+            "height": 67,
+            "totalFrames": 1,
+            "frames": [
+                {
+                    "spriteID": 1,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "Player_Jump_High",
+            "width": 40,
+            "height": 67,
+            "totalFrames": 1,
+            "frames": [
+                {
+                    "spriteID": 20,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "Player_Jump_Low",
+            "width": 40,
+            "height": 67,
+            "totalFrames": 1,
+            "frames": [
+                {
+                    "spriteID": 21,
+                    "duration": 0.5
+                }
+            ]
+        },
+        {
+            "name": "Player_Walk",
+            "width": 40,
+            "height": 67,
+            "totalFrames": 4,
+            "frames": [
+                {
+                    "spriteID": 1,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 2,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 3,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 4,
+                    "duration": 0.10000000149011612
+                }
+            ]
+        },
+        {
+            "name": "ProtocolLooping",
+            "width": 800,
+            "height": 600,
+            "totalFrames": 2,
+            "frames": [
+                {
+                    "spriteID": 319,
+                    "duration": 0.25
+                },
+                {
+                    "spriteID": 320,
+                    "duration": 0.25
+                }
+            ]
+        },
+        {
+            "name": "VisorOn",
+            "width": 800,
+            "height": 600,
+            "totalFrames": 21,
+            "frames": [
+                {
+                    "spriteID": 321,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 322,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 323,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 324,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 325,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 326,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 327,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 328,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 329,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 330,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 331,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 332,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 333,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 334,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 335,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 336,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 337,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 338,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 339,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 340,
+                    "duration": 0.10000000149011612
+                },
+                {
+                    "spriteID": 341,
+                    "duration": 0.10000000149011612
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,285 @@
+{
+    "entity0": {
+        "position": {
+            "x": 11601.599609375,
+            "y": 1751.967041015625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 7
+            },
+            "1188330379154202872": {
+                "_active": true,
+                "healAmtPerSec": 40,
+                "rechargeDelay": 1.0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 639391300373670707
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Reactor"
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 8121593217402529496
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 1750,
+                "currHealth": 1750,
+                "healthType": "Objective",
+                "barShowLogarithmic": true,
+                "selectedIndex": 0
+            },
+            "17832951230279191003": {
+                "_active": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 11591.5947265625,
+            "y": 1792.46630859375
+        },
+        "zPosition": 0.3100000023841858,
+        "rotation": 0.0,
+        "scale": {
+            "x": 155.0,
+            "y": 180.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 620757876817665116
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Reactor Core"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 7,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 11651.59765625,
+            "y": 1799.967041015625
+        },
+        "zPosition": 0.30000001192092898,
+        "rotation": 0.0,
+        "scale": {
+            "x": 138.0,
+            "y": 195.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 627482489933156503
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Reactor Stack"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 8,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 11591.5986328125,
+            "y": 1741.467041015625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2424431935364475688
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "DefenceStarterButton"
+            },
+            "7392695580837994739": {
+                "_active": true,
+                "audioUse": {
+                    "name": "Lever"
+                },
+                "connectedEntity": {
+                    "entityUid": 8315252398675858869
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 26.0,
+                    "y": 46.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 11591.599609375,
+            "y": 1741.467041015625
+        },
+        "zPosition": 0.3199999928474426,
+        "rotation": 0.0,
+        "scale": {
+            "x": 26.0,
+            "y": 40.0
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 6
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3563244507230960159
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 145,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 3,
+                "spriteID_Vec": [
+                    145,
+                    147,
+                    146
+                ]
+            }
+        }
+    }
+}

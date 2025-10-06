@@ -1,0 +1,36 @@
+{
+    "weaponName": "BossGun",
+    "fireRPM": 600.0,
+    "fireType": 1,
+    "weaponType": 9,
+    "burstCount": 1,
+    "pelletCount": 3,
+    "damagePerBullet": 10,
+    "magazineSize": 30,
+    "spread": 5,
+    "recoilPerShot": 0.25,
+    "recoilWanderMultiplier": 25.0,
+    "recoilWanderMax": 25.0,
+    "recoilRecovery": 5.0,
+    "recoilRecoveryMin": 1.0,
+    "reloadTime": 1.5,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 1.0,
+    "bulletSpeed": 30.0,
+    "bulletSpeedRange": 15.0,
+    "firePointPixel": {
+        "x": 14.0,
+        "y": 0.0
+    },
+    "holdPointPixel": {
+        "x": 27.0,
+        "y": 24.0
+    },
+    "muzzleFlashPosition": {
+        "x": 33.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.10000000149011612,
+    "screenShakePerShot": 0.10000000149011612,
+    "maximumScreenShake": 0.25
+}

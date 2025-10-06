@@ -1,0 +1,236 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1146.9000244140626,
+            "y": -1304.199951171875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3685327680972084243
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Snoipah"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 639.0,
+                    "y": 24.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Snoipah",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Snoipah",
+                    "fireRPM": 6000.0,
+                    "fireType": 3,
+                    "weaponType": 4,
+                    "burstCount": 1,
+                    "pelletCount": 30,
+                    "damagePerBullet": 500,
+                    "magazineSize": 1,
+                    "spread": 0,
+                    "recoilPerShot": 0.0,
+                    "recoilWanderMultiplier": 0.0,
+                    "recoilWanderMax": 0.0,
+                    "recoilRecovery": 0.0,
+                    "recoilRecoveryMin": 0.0,
+                    "reloadTime": 0.0,
+                    "bulletSize": 2.0,
+                    "bulletSpeed": 60.0,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": 272.0,
+                        "y": -2.0
+                    },
+                    "holdPointPixel": {
+                        "x": 616.0,
+                        "y": 18.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 315.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 1.0,
+                    "maximumScreenShake": 1.0
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Sniper"
+                },
+                "audioPickup": {
+                    "name": "Coin"
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1146.8984375,
+            "y": -1304.19921875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 639.0,
+            "y": 24.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3697030882738131987
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 65,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    65,
+                    66
+                ]
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -831.9000244140625,
+            "y": -1304.199951171875
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 35.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 11360635724431190448
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Sniper"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 1548417163419803412,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    }
+}

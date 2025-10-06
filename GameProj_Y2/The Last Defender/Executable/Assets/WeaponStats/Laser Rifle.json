@@ -1,0 +1,44 @@
+{
+    "weaponName": "Laser Rifle",
+    "fireRPM": 60.0,
+    "fireType": 3,
+    "weaponType": 6,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 150,
+    "magazineSize": 1,
+    "spread": 0,
+    "recoilPerShot": 50.0,
+    "recoilWanderMultiplier": 1.0,
+    "recoilWanderMax": 50.0,
+    "recoilRecovery": 5.0,
+    "recoilRecoveryMin": 1.0,
+    "reloadTime": 1.0,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 2.0,
+    "bulletSpeed": 2048.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": -4.0,
+        "y": -1.0
+    },
+    "holdPointPixel": {
+        "x": 41.0,
+        "y": 13.0
+    },
+    "muzzleFlashPosition": {
+        "x": 44.0,
+        "y": -2.0
+    },
+    "shellEjectionPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 5.0,
+    "maximumScreenShake": 0.5,
+    "enemyDamage": 5,
+    "enemyCycleTimeBase": 1.0,
+    "enemyCycleTimeBurst": 0.20000000298023225,
+    "enemyBurstBullets": 3
+}

@@ -1,0 +1,242 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 239.9996337890625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 320.9750061035156,
+            "y": 41.997493743896487
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 4386773218393529399
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "BossHealthBarHolder"
+            },
+            "3381165323192817782": {
+                "_active": false,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 32,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 0.0
+                        }
+                    }
+                }
+            },
+            "4010763651740336390": {
+                "_active": false,
+                "trauma": 0.0,
+                "traumaExponent": 2.0,
+                "recoverySpeed": 2.0,
+                "frequency": 10.0,
+                "time": 8545.001953125,
+                "maxPosOffset": {
+                    "x": 0.25,
+                    "y": 0.25
+                },
+                "maxRotOffset": 20.0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": 239.9996337890625
+        },
+        "zPosition": 0.5,
+        "rotation": 180.0,
+        "scale": {
+            "x": 320.9750061035156,
+            "y": 41.997493743896487
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 838077449514707558
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "BossPrimary"
+            },
+            "3381165323192817782": {
+                "_active": false,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": true,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "16719731451929260862": {
+                "_active": false,
+                "maxValue": 300.0,
+                "currValue": 300.0
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 0.00003826320244115777,
+            "y": 239.9996337890625
+        },
+        "zPosition": 0.4099999964237213,
+        "rotation": 180.0,
+        "scale": {
+            "x": 320.9750061035156,
+            "y": 41.997493743896487
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 6840554417614516644
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "BossBlack"
+            },
+            "3381165323192817782": {
+                "_active": false,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": true,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "16719731451929260862": {
+                "_active": false,
+                "maxValue": 300.0,
+                "currValue": 300.0
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 0.00003826320244115777,
+            "y": 239.9996337890625
+        },
+        "zPosition": 0.44999998807907107,
+        "rotation": 180.0,
+        "scale": {
+            "x": 320.9750061035156,
+            "y": 41.997493743896487
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 14822932968964613661
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "BossSecondary"
+            },
+            "3381165323192817782": {
+                "_active": false,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": true,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "16719731451929260862": {
+                "_active": false,
+                "maxValue": 300.0,
+                "currValue": 300.0
+            }
+        }
+    }
+}

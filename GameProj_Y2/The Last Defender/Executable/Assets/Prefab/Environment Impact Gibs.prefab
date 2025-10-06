@@ -1,0 +1,275 @@
+{
+    "entity0": {
+        "position": {
+            "x": -249.515380859375,
+            "y": -170.3052978515625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2341591431471433486
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Environment Impact Gibs"
+            },
+            "7334547544426974756": {
+                "_active": true,
+                "delayTimer": 2.5,
+                "delayRandomOffset": 0.800000011920929,
+                "fadeLength": 3.0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -249.515380859375,
+            "y": -170.30531311035157
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 3.0,
+            "y": 3.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2447013705854398010
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 0.009999999776482582,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Gib7"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -249.515380859375,
+            "y": -170.30531311035157
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 3.0,
+            "y": 3.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2464457457829064433
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 0.009999999776482582,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Gib7"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -249.515380859375,
+            "y": -170.30531311035157
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 3.0,
+            "y": 3.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2483187638408228775
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 0.009999999776482582,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Gib7"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    }
+}

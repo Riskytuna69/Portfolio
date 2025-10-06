@@ -1,0 +1,46 @@
+{
+    "entity0": {
+        "position": {
+            "x": 7699.93359375,
+            "y": 1353.3182373046876
+        },
+        "zPosition": 0.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 13355487368193633529
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "IntelDoorLight"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "intensity": 1.0,
+                "radius": 22.0,
+                "falloffExponent": 1.1970000267028809,
+                "innerRadius": 0.0,
+                "coneAngle": 45.0,
+                "coneFalloff": 0.5,
+                "state.enabled": true,
+                "state.castShadows": false,
+                "state.isSpot": false
+            }
+        }
+    }
+}

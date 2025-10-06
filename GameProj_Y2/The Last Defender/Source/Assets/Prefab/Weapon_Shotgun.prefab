@@ -1,0 +1,382 @@
+{
+    "entity0": {
+        "position": {
+            "x": 459.5862731933594,
+            "y": -93.8458251953125
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2725721212397529148
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Shotgun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 44.0,
+                    "y": 17.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Shotgun",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Shotgun",
+                    "fireRPM": 180.0,
+                    "fireType": 0,
+                    "weaponType": 2,
+                    "burstCount": 1,
+                    "pelletCount": 10,
+                    "damagePerBullet": 11,
+                    "magazineSize": 7,
+                    "spread": 25,
+                    "recoilPerShot": 10.0,
+                    "recoilWanderMultiplier": 3.0,
+                    "recoilWanderMax": 20.0,
+                    "recoilRecovery": 1.0,
+                    "recoilRecoveryMin": 1.5,
+                    "reloadTime": 2.0,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 0.800000011920929,
+                    "bulletSpeed": 30.0,
+                    "bulletSpeedRange": 25.0,
+                    "firePointPixel": {
+                        "x": 12.0,
+                        "y": 5.0
+                    },
+                    "holdPointPixel": {
+                        "x": 28.0,
+                        "y": 9.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 34.0,
+                        "y": 3.5
+                    },
+                    "shellEjectionPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.30000001192092898,
+                    "screenShakePerShot": 0.4000000059604645,
+                    "maximumScreenShake": 0.5,
+                    "enemyDamage": 8,
+                    "enemyCycleTimeBase": 1.5,
+                    "enemyCycleTimeBurst": 0.0,
+                    "enemyBurstBullets": 1
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Shotgun"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Shotgun"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 493.5862731933594,
+            "y": -92.3458251953125
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 22.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2734459031303465020
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Shotgun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 17798354906544767979,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 493.5862731933594,
+            "y": -90.3458251953125
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 22.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2746160034046257212
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Shotgun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 17798354906544767979,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 459.5878601074219,
+            "y": -93.8450927734375
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 44.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2755818144184641596
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 53,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    53,
+                    54
+                ]
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 493.5862731933594,
+            "y": -90.3458251953125
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 22.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2764664814741727292
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Shotgun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 17798354906544767979,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,763 @@
+{
+    "entity0": {
+        "position": {
+            "x": 219.90174865722657,
+            "y": 438.22705078125
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 2
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".CharacterScript",
+                        "value": {
+                            "name": ".CharacterScript",
+                            "vars": [
+                                {
+                                    "key": "<groundDistance>k__BackingField",
+                                    "value": 0.0
+                                },
+                                {
+                                    "key": "<isGrounded>k__BackingField",
+                                    "value": false
+                                },
+                                {
+                                    "key": "accel",
+                                    "value": 100.0
+                                },
+                                {
+                                    "key": "aimDirection",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "airaccel",
+                                    "value": 10.0
+                                },
+                                {
+                                    "key": "body",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "canChargeDash",
+                                    "value": false
+                                },
+                                {
+                                    "key": "characterAnimationName",
+                                    "value": ""
+                                },
+                                {
+                                    "key": "chargingDash",
+                                    "value": false
+                                },
+                                {
+                                    "key": "dashPower",
+                                    "value": 700.0
+                                },
+                                {
+                                    "key": "floorDistance",
+                                    "value": 20.0
+                                },
+                                {
+                                    "key": "footstepInterval",
+                                    "value": 0.4000000059604645
+                                },
+                                {
+                                    "key": "horizontalMovement",
+                                    "value": 0.0
+                                },
+                                {
+                                    "key": "isFiring",
+                                    "value": false
+                                },
+                                {
+                                    "key": "jumpHeld",
+                                    "value": false
+                                },
+                                {
+                                    "key": "jumpLeniencyFrames",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "jumpPower",
+                                    "value": 500.0
+                                },
+                                {
+                                    "key": "releaseWhenCycling",
+                                    "value": false
+                                },
+                                {
+                                    "key": "remainingDashes",
+                                    "value": 0
+                                },
+                                {
+                                    "key": "slowdownFactor",
+                                    "value": 10.0
+                                },
+                                {
+                                    "key": "speed",
+                                    "value": 350.0
+                                },
+                                {
+                                    "key": "timeSinceLastFootstep",
+                                    "value": 0.0
+                                },
+                                {
+                                    "key": "totalDashes",
+                                    "value": 1
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "key": ".PlayerScript",
+                        "value": {
+                            "name": ".PlayerScript",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".CharacterScript",
+                        "value": false
+                    },
+                    {
+                        "key": ".PlayerScript",
+                        "value": false
+                    }
+                ]
+            },
+            "1188330379154202872": {
+                "_active": true,
+                "healAmtPerSec": 25,
+                "rechargeDelay": 3.0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 72487503450537103
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": true
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 0.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Player"
+            },
+            "6733303053760522166": {
+                "_active": true,
+                "prefabName": "Player Gibs"
+            },
+            "8245018414701500332": {
+                "_active": true,
+                "minDistance": 10.0,
+                "maxDistance": 1000.0,
+                "dopperScale": 1.0,
+                "distanceFactor": 0.009999999776482582,
+                "rolloffScale": 0.10000000149011612
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 0.20000000298023225,
+                    "y": 0.675000011920929
+                },
+                "halfLengths": {
+                    "x": 10.0,
+                    "y": 33.75
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "12625679682862078151": {
+                "_active": true,
+                "maxVignetteRadius": 0.699999988079071,
+                "decaySpeed": 1.0,
+                "lowHealthPercentThreshold": 0.4000000059604645,
+                "lowHealthIntensityModifier": 0.4000000059604645
+            },
+            "14329217802881411039": {
+                "_active": true,
+                "itemGrabDistance": 100,
+                "reloadBar": {
+                    "entityUid": 2604270257248319461
+                },
+                "unlockedSlots": 3,
+                "itemSwitchCooldown": 0.05999999865889549,
+                "inventoryUIComponent": {
+                    "entityUid": 2443706375215089326
+                },
+                "pickupUIComponent": {
+                    "entityUid": 2871208591860231170
+                },
+                "itemInfoPanelEntity": {
+                    "entityUid": 11565659458496131707
+                },
+                "audioThrow": {
+                    "name": "Throw"
+                },
+                "audioHolster": {
+                    "name": "Holster"
+                },
+                "audioInvalid": {
+                    "name": "Invalid"
+                }
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 156745278510267540
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 3252558805284855778
+                },
+                "camEntity": {
+                    "entityUid": 5279980181416362525
+                },
+                "maxHealth": 200,
+                "currHealth": 200,
+                "healthType": "Player",
+                "selectedIndex": 0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 219.90403747558595,
+            "y": 438.21160888671877
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".Flipper",
+                        "value": {
+                            "name": ".Flipper",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".Flipper",
+                        "value": false
+                    }
+                ]
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 109505860934499473
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Flipper"
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 219.90403747558595,
+            "y": 488.21160888671877
+        },
+        "zPosition": 0.550000011920929,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 3.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2604270257248319461
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ReloadBar"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI_Black",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 219.04039001464845,
+            "y": 451.45947265625
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".Pivot",
+                        "value": {
+                            "name": ".Pivot",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".Pivot",
+                        "value": false
+                    }
+                ]
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 135790785908112530
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmPivot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "5058633100136995243": {
+                "_active": true
+            },
+            "16481211458745984315": {
+                "_active": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 219.87046813964845,
+            "y": 438.2261047363281
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 40.0,
+            "y": 67.0
+        },
+        "parent": "entity1",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".CharacterAnimScript",
+                        "value": {
+                            "name": ".CharacterAnimScript",
+                            "vars": []
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".CharacterAnimScript",
+                        "value": false
+                    }
+                ]
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 147036590837005460
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "PlayerSprite"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 0,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": true,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 1,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": 219.8391876220703,
+            "y": 488.21173095703127
+        },
+        "zPosition": 0.5600000023841858,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 3.0
+        },
+        "parent": "entity2",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2614614462642436069
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Fill"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 1.0,
+                    "y": 0.9707724452018738,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI_Yellow",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "16719731451929260862": {
+                "_active": true,
+                "maxValue": 100.0,
+                "currValue": 100.0
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 226.89195251464845,
+            "y": 450.9244384765625
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 28.0,
+            "y": 13.0
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 171187363741105300
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "ArmSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 14,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": 279.0345458984375,
+            "y": 451.4591064453125
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 33.0,
+            "y": 105.99999237060547
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1188330379154202872": {
+                "_active": true,
+                "healAmtPerSec": 4,
+                "rechargeDelay": 2.5
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 1496524386509215805
+            },
+            "1789550767329800810": {
+                "_active": true,
+                "flashMaterialName": "HitFlash"
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Shield"
+            },
+            "16848839614278990482": {
+                "_active": true,
+                "barEntity": {
+                    "entityUid": 2764557062934996850
+                },
+                "secondaryBarEntity": {
+                    "entityUid": 0
+                },
+                "camEntity": {
+                    "entityUid": 0
+                },
+                "maxHealth": 150,
+                "currHealth": 150,
+                "healthType": "Shield",
+                "selectedIndex": 0
+            },
+            "17421090503564904632": {
+                "_active": true,
+                "armPivotEntity": {
+                    "entityUid": 135790785908112530
+                },
+                "renderEntity": {
+                    "entityUid": 3444986533991687367
+                },
+                "startMin": 30.0,
+                "endMax": 75.0,
+                "angleMax": 45.0,
+                "depletionRate": 40.0,
+                "regenRateMultiplier": 2.5,
+                "regenRateEnhancedTime": 1.0,
+                "reflectSound": {
+                    "name": "Ricochet"
+                },
+                "activatedSound": {
+                    "name": "Shield_Up"
+                },
+                "deactivatedSound": {
+                    "name": "Shield_Down"
+                }
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": 279.03448486328127,
+            "y": 451.45587158203127
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 33.0,
+            "y": 105.99999237060547
+        },
+        "parent": "entity7",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3444986533991687367
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Render"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 73,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "UI",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

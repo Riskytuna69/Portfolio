@@ -1,0 +1,64 @@
+{
+    "entity0": {
+        "position": {
+            "x": -989.3272094726563,
+            "y": -1400.4989013671876
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 50.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2887421988713703351
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Bomb"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "3715137305415003968": {
+                "_active": true,
+                "bombTimer": 5.0,
+                "bombRange": {
+                    "entityUid": 0
+                }
+            }
+        }
+    }
+}

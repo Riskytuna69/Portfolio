@@ -1,0 +1,111 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.9900000095367432,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 60.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 1143453610596893874
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Button"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 39,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16420137372183402257": {
+                "_active": true,
+                "spriteID_Pressed": 40,
+                "spriteID_Unpressed": 39,
+                "clickSound": {
+                    "name": "Click"
+                },
+                "numFunctions": 1,
+                "vecFunctions": [
+                    {
+                        "function": "ViewIntel",
+                        "parameter": "0"
+                    }
+                ]
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": 0.000017881397070595996
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 29.048704147338868,
+            "y": 29.048704147338868
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 1152063886154007731
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "0000",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1
+            }
+        }
+    }
+}

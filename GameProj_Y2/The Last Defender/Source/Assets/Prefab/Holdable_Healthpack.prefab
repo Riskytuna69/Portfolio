@@ -1,0 +1,98 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1335.0457763671876,
+            "y": -1317.351806640625
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "283752064663889834": {},
+            "1048412265199846848": {
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "uid": 13853217589800607549
+            },
+            "1704134378397217068": {
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation (UMIMPLEMENTED)": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "name": "Holdable_Healthpack"
+            },
+            "11177578551078745619": {
+                "type": 0,
+                "scale": {
+                    "x": 25.0,
+                    "y": 25.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1335.044189453125,
+            "y": -1317.35107421875
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 25.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "uid": 13865047235403849533
+            },
+            "2471509561333568296": {
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "spriteID": 47,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            },
+            "16043719161180265440": {
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    47,
+                    48
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "entity0": {
+        "position": {
+            "x": -290.0,
+            "y": 0.0
+        },
+        "zPosition": 0.9900000095367432,
+        "rotation": 0.0,
+        "scale": {
+            "x": 240.0,
+            "y": 60.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 2794877193970177214
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "Settings"
+            },
+            "3381165323192817782": {
+                "_active": false,
+                "spriteID": 32,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            },
+            "16420137372183402257": {
+                "_active": false,
+                "spriteID_Pressed": 33,
+                "spriteID_Unpressed": 32,
+                "clickSound": {
+                    "name": "Click"
+                },
+                "numFunctions": 1,
+                "vecFunctions": [
+                    {
+                        "function": "ChangeMenuScreenByName",
+                        "parameter": "Settings UI"
+                    }
+                ]
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -290.0,
+            "y": 0.00003218650817871094
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 29.049999237060548,
+            "y": 29.048704147338868
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": false,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": false,
+                "uid": 2804009737550484670
+            },
+            "2471509561333568296": {
+                "_active": false,
+                "name": "Text"
+            },
+            "6057063263209738971": {
+                "_active": false,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Settings",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    }
+}

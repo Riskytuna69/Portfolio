@@ -1,0 +1,44 @@
+{
+    "weaponName": "Sniper",
+    "fireRPM": 120.0,
+    "fireType": 0,
+    "weaponType": 4,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 120,
+    "magazineSize": 7,
+    "spread": 0,
+    "recoilPerShot": 50.0,
+    "recoilWanderMultiplier": 1.0,
+    "recoilWanderMax": 50.0,
+    "recoilRecovery": 10.0,
+    "recoilRecoveryMin": 1.0,
+    "reloadTime": 2.0,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 2.0,
+    "bulletSpeed": 40.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 4.0,
+        "y": 2.5
+    },
+    "holdPointPixel": {
+        "x": 39.0,
+        "y": 14.0
+    },
+    "muzzleFlashPosition": {
+        "x": 48.0,
+        "y": 1.5
+    },
+    "shellEjectionPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 0.0,
+    "maximumScreenShake": 0.0,
+    "enemyDamage": 50,
+    "enemyCycleTimeBase": 1.5,
+    "enemyCycleTimeBurst": 1.5,
+    "enemyBurstBullets": 5
+}

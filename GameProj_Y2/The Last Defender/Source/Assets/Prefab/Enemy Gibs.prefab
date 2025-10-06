@@ -1,0 +1,791 @@
+{
+    "entity0": {
+        "position": {
+            "x": 1092.7818603515626,
+            "y": 445.30670166015627
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 25.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14127701871418519197
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Enemy Gibs"
+            },
+            "7334547544426974756": {
+                "_active": true,
+                "delayTimer": 2.5,
+                "delayRandomOffset": 0.800000011920929,
+                "fadeLength": 3.0
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 1092.7818603515626,
+            "y": 419.30078125
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 15.000000953674317,
+            "y": 18.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14134320931417730717
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Foot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 369,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 1090.2818603515626,
+            "y": 430.30670166015627
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 23.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14143387504300371613
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 300.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Thigh"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 371,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 1094.3902587890626,
+            "y": 457.270751953125
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 19.0,
+            "y": 23.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14153098390996889245
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 145.0,
+                    "y": 265.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Torso"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 370,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 1083.7818603515626,
+            "y": 455.6807861328125
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 8.0,
+            "y": 19.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14160393650647183005
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": -165.0,
+                    "y": 255.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Backpack"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 367,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": 1098.3787841796876,
+            "y": 471.54766845703127
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 17.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14169509701553073821
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Head"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 368,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 1103.7818603515626,
+            "y": 458.2976989746094
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.000001907348634,
+            "y": 10.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14177655983203266205
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 145.0,
+                    "y": 265.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Arm"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 19,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": 1092.7818603515626,
+            "y": 419.23211669921877
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 15.000000953674317,
+            "y": 18.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14187932018876460701
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 250.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Foot"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 369,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": 1102.7818603515626,
+            "y": 457.80670166015627
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.000001907348634,
+            "y": 10.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14196345481852202653
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 145.0,
+                    "y": 265.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Arm"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 19,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": 1091.32177734375,
+            "y": 430.6929931640625
+        },
+        "zPosition": 0.49000000953674319,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 23.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 8
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14208413721478672029
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.4000000059604645,
+                "frictionCoeff": 0.4000000059604645,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 300.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Thigh"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 371,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 1,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            }
+        }
+    }
+}

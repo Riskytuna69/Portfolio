@@ -1,0 +1,35 @@
+{
+    "weaponName": "Snoipah",
+    "fireRPM": 60.0,
+    "fireType": 1,
+    "weaponType": 7,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 500,
+    "magazineSize": 1,
+    "spread": 900,
+    "recoilPerShot": 0.0,
+    "recoilWanderMultiplier": 0.0,
+    "recoilWanderMax": 0.0,
+    "recoilRecovery": 0.0,
+    "recoilRecoveryMin": 0.0,
+    "reloadTime": 0.10000000149011612,
+    "bulletSize": 2.0,
+    "bulletSpeed": 1024.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 272.0,
+        "y": -2.0
+    },
+    "holdPointPixel": {
+        "x": 616.0,
+        "y": 18.0
+    },
+    "muzzleFlashPosition": {
+        "x": 315.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.0,
+    "screenShakePerShot": 1.0,
+    "maximumScreenShake": 0.5
+}

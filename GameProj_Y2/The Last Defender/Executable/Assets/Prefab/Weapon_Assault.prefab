@@ -1,0 +1,250 @@
+{
+    "entity0": {
+        "position": {
+            "x": 464.3810729980469,
+            "y": -96.83387756347656
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2528694226258149242
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Assault"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 46.0,
+                    "y": 16.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Assault",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Assault",
+                    "fireRPM": 600.0,
+                    "fireType": 1,
+                    "weaponType": 1,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 20,
+                    "magazineSize": 30,
+                    "spread": 2,
+                    "recoilPerShot": 1.0,
+                    "recoilWanderMultiplier": 1.0,
+                    "recoilWanderMax": 10.0,
+                    "recoilRecovery": 1.2000000476837159,
+                    "recoilRecoveryMin": 0.75,
+                    "reloadTime": 2.5,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 1.0,
+                    "bulletSpeed": 35.0,
+                    "bulletSpeedRange": 0.0,
+                    "firePointPixel": {
+                        "x": 9.0,
+                        "y": 1.0
+                    },
+                    "holdPointPixel": {
+                        "x": 31.0,
+                        "y": 12.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 36.5,
+                        "y": 0.5
+                    },
+                    "shellEjectionPosition": {
+                        "x": -10.5,
+                        "y": 0.5
+                    },
+                    "screenShakePerSpreadDegree": 0.0,
+                    "screenShakePerShot": 0.0,
+                    "maximumScreenShake": 0.0,
+                    "enemyDamage": 10,
+                    "enemyCycleTimeBase": 1.0,
+                    "enemyCycleTimeBurst": 0.15000000596046449,
+                    "enemyBurstBullets": 4
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Assault"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Assault"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 464.3826599121094,
+            "y": -96.83314514160156
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 46.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2539139586722021242
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 45,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    45,
+                    46
+                ]
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 500.8810729980469,
+            "y": -96.33387756347656
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 13.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2548481037511606138
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Assault"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 4613697903272480290,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

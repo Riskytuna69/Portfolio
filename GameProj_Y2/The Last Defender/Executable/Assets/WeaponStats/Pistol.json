@@ -1,0 +1,44 @@
+{
+    "weaponName": "Pistol",
+    "fireRPM": 450.0,
+    "fireType": 0,
+    "weaponType": 0,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 30,
+    "magazineSize": 7,
+    "spread": 0,
+    "recoilPerShot": 2.0,
+    "recoilWanderMultiplier": 5.0,
+    "recoilWanderMax": 20.0,
+    "recoilRecovery": 2.5,
+    "recoilRecoveryMin": 1.0,
+    "reloadTime": 2.0,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 1.0,
+    "bulletSpeed": 30.0,
+    "bulletSpeedRange": 0.0,
+    "firePointPixel": {
+        "x": 7.0,
+        "y": 3.0
+    },
+    "holdPointPixel": {
+        "x": 16.0,
+        "y": 8.0
+    },
+    "muzzleFlashPosition": {
+        "x": 22.0,
+        "y": 3.0
+    },
+    "shellEjectionPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.10000000149011612,
+    "screenShakePerShot": 0.5,
+    "maximumScreenShake": 0.30000001192092898,
+    "enemyDamage": 16,
+    "enemyCycleTimeBase": 1.0,
+    "enemyCycleTimeBurst": 0.25,
+    "enemyBurstBullets": 4
+}

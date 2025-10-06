@@ -1,0 +1,657 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 27005105772917889
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Anim01_CompOn"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 7790164668495124128,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 298,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 66315944318168587
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Anim02_ProtocolLoop"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 11143795127255160925,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 320,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 74457827921879149
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Anim03_VisorOn"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 7654699017706535113,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 325,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 200.0,
+            "y": 200.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 79568357970347761
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "CutsceneManager"
+            },
+            "12617811344070033667": {
+                "_active": true,
+                "fadeTime": 2.0,
+                "loopingTime": 2.0,
+                "anim01": {
+                    "entityUid": 27005105772917889
+                },
+                "anim02": {
+                    "entityUid": 66315944318168587
+                },
+                "anim03": {
+                    "entityUid": 74457827921879149
+                },
+                "anim04": {
+                    "entityUid": 83580475897545755
+                },
+                "fadeEntity": {
+                    "entityUid": 93078057362978110
+                },
+                "skipCutsceneText": {
+                    "entityUid": 2615770049041312980
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 83580475897545755
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Anim04_VisorLoop"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 10921611203302192361,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": true
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 354,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 93078057362978110
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Fade"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0,
+                            "w": 0.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 2000.0,
+            "y": 1500.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 104940688315872285
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Vignette"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "10538284385677297127": {
+                "_active": true,
+                "bloomEnabled": false,
+                "bloomIntensity": 0.5,
+                "bloomThreshold": 0.800000011920929,
+                "blurSize": 2.0,
+                "vignetteEnabled": true,
+                "vignetteIntensity": 0.8399999737739563,
+                "vignetteColor": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "vignetteRadius": 0.7599999904632568,
+                "vignetteSmoothness": 1.0
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": 631.0,
+            "y": -377.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 100.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2615770049041312980
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "SkipText"
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1095350204565343168": {
+                "_active": true,
+                "scriptMap": [
+                    {
+                        "key": ".CameraLock",
+                        "value": {
+                            "name": ".CameraLock",
+                            "vars": [
+                                {
+                                    "key": "zoom",
+                                    "value": 1.2000000476837159
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "openStates": [
+                    {
+                        "key": ".CameraLock",
+                        "value": false
+                    }
+                ]
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 11238499774320265046
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Camera"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "14723636048609971163": {
+                "_active": true,
+                "active": true,
+                "priority": 2,
+                "zoom": 0.0
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": 689.1505737304688,
+            "y": -377.0
+        },
+        "zPosition": 0.9100000262260437,
+        "rotation": 0.0,
+        "scale": {
+            "x": 30.000001907348634,
+            "y": 30.000001907348634
+        },
+        "parent": "entity7",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2594387846415837637
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Text"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "to skip",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": 540.0090942382813,
+            "y": -377.0
+        },
+        "zPosition": 0.9100000262260437,
+        "rotation": 0.0,
+        "scale": {
+            "x": 100.0,
+            "y": 48.0
+        },
+        "parent": "entity7",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2606251576879608762
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Esc"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 164,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

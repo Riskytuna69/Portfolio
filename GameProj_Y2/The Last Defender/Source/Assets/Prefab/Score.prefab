@@ -1,0 +1,163 @@
+{
+    "entity0": {
+        "position": {
+            "x": 0.0,
+            "y": 179.99998474121095
+        },
+        "zPosition": 0.6800000071525574,
+        "rotation": 0.0,
+        "scale": {
+            "x": 20.0,
+            "y": 20.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14138528763016745036
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Score"
+            },
+            "17475931113501920527": {
+                "_active": true,
+                "vecReferences": [
+                    {
+                        "entityUid": 14598247768871882677
+                    },
+                    {
+                        "entityUid": 4275050743427023162
+                    },
+                    {
+                        "entityUid": 14608809677568326219
+                    }
+                ]
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 108.0,
+            "y": 179.99990844726563
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 20.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14146529909132070988
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "1"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "9999",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 2,
+                "UI": true
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -219.99998474121095,
+            "y": 179.99990844726563
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 20.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14157040140781981772
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "0"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Damage shielded",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 219.99998474121095,
+            "y": 179.99990844726563
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 20.0,
+            "y": 20.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 14164696040246186060
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "2"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "+9999",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 2,
+                "UI": true
+            }
+        }
+    }
+}

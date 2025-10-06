@@ -1,0 +1,74 @@
+{
+    "entity0": {
+        "position": {
+            "x": -250.0,
+            "y": -0.5
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 176.0,
+            "y": 324.0
+        },
+        "parent": "",
+        "components": {
+            "1223095846833079106": {
+                "uid": 39199788919618703
+            },
+            "2471509561333568296": {
+                "name": "Building"
+            },
+            "3381165323192817782": {
+                "spriteID": 6,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -250.0,
+            "y": -3.740000009536743
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 147.83999633789063,
+            "y": 315.8999938964844
+        },
+        "parent": "entity0",
+        "components": {
+            "1223095846833079106": {
+                "uid": 118022678003252370
+            },
+            "2471509561333568296": {
+                "name": "Collider"
+            },
+            "11177578551078745619": {
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 75.0,
+                    "y": 162.0
+                },
+                "masks": {
+                    "Environment": true,
+                    "Player": true,
+                    "Enemy": true,
+                    "Weapon": true,
+                    "Player Bullet": true,
+                    "Enemy Bullet": true
+                }
+            }
+        }
+    }
+}

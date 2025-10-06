@@ -1,0 +1,101 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1022.0,
+            "y": -1091.0
+        },
+        "zPosition": 0.20000000298023225,
+        "rotation": 0.0,
+        "scale": {
+            "x": 32.0,
+            "y": 32.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 6103805761563886523
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Spotlight"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 158,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.20000000298023225
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -1022.0,
+            "y": -1094.278564453125
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": -90.0,
+        "scale": {
+            "x": 150.0,
+            "y": 150.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 6115068059167196091
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Light"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.9008350968360901,
+                    "y": 0.8403320908546448,
+                    "z": 0.6845594644546509
+                },
+                "intensity": 0.5176470875740051,
+                "radius": 869.0,
+                "falloffExponent": 3.440999984741211,
+                "innerRadius": 0.0,
+                "coneAngle": 105.76000213623047,
+                "coneFalloff": 0.4970000088214874,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": true
+            }
+        }
+    }
+}

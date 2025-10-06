@@ -1,0 +1,44 @@
+{
+    "weaponName": "SMG",
+    "fireRPM": 900.0,
+    "fireType": 1,
+    "weaponType": 5,
+    "burstCount": 1,
+    "pelletCount": 1,
+    "damagePerBullet": 13,
+    "magazineSize": 30,
+    "spread": 3,
+    "recoilPerShot": 8.0,
+    "recoilWanderMultiplier": 8.0,
+    "recoilWanderMax": 12.0,
+    "recoilRecovery": 5.0,
+    "recoilRecoveryMin": 1.0,
+    "reloadTime": 1.5,
+    "bulletLifeTime": 2.0,
+    "bulletSize": 1.0,
+    "bulletSpeed": 30.0,
+    "bulletSpeedRange": 1.0,
+    "firePointPixel": {
+        "x": 10.0,
+        "y": 4.0
+    },
+    "holdPointPixel": {
+        "x": 27.0,
+        "y": 9.0
+    },
+    "muzzleFlashPosition": {
+        "x": 33.0,
+        "y": 5.0
+    },
+    "shellEjectionPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "screenShakePerSpreadDegree": 0.10000000149011612,
+    "screenShakePerShot": 0.10000000149011612,
+    "maximumScreenShake": 0.25,
+    "enemyDamage": 8,
+    "enemyCycleTimeBase": 1.5,
+    "enemyCycleTimeBurst": 0.05999999865889549,
+    "enemyBurstBullets": 5
+}

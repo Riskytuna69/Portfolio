@@ -1,0 +1,697 @@
+{
+    "entity0": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 159.99998474121095
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3190372627261609582
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "5"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 0,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 100.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3197836112190953070
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 4"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "punch for such a small package.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 20.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3207205050771232366
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 8"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 140.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3217548156653721198
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 2"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -40.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3225275524373730926
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 11"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "guys take it instead. It'll probably",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -60.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3235102959302792814
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 12"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "hurt him more than it hurts us.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity6": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 120.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3244802850883032687
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 3"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "This thing has a stupid amount of",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity7": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 160.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3253295478695974511
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 1"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Uncovered secrets",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity8": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 80.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3260742470950901359
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 5"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "It might sound like a bubble gun,",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity9": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 60.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3269840929670747759
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 6"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "but the recoil sent me flying when",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity10": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -80.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3282770086901765743
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 13"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity11": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -100.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3289236314784716399
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 14"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity12": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 40.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3299725655713699439
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 7"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "I fired it.",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity13": {
+        "position": {
+            "x": 402.50006103515627,
+            "y": -140.00001525878907
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3305799357945534063
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 16"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Disgruntled employee",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 2,
+                "UI": true
+            }
+        }
+    },
+    "entity14": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -120.00001525878906
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3318092997455697519
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 15"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity15": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": 0.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3326740656408155759
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 9"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Whatever it is, keep that thing away",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    },
+    "entity16": {
+        "position": {
+            "x": -22.49993896484375,
+            "y": -20.0
+        },
+        "zPosition": 1.0,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 16.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 3333480662686422639
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Line 10"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "from me. I'll let one of those green",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 0,
+                "UI": true
+            }
+        }
+    }
+}

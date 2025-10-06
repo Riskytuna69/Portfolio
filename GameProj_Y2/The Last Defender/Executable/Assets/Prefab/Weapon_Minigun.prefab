@@ -1,0 +1,382 @@
+{
+    "entity0": {
+        "position": {
+            "x": 9596.9580078125,
+            "y": 1743.886474609375
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9001164036570295040
+            },
+            "1704134378397217068": {
+                "_active": true,
+                "flags": {
+                    "Is Dynamic": true,
+                    "Enable Gravity": true,
+                    "Lock Rotation": false
+                },
+                "mass": 1.0,
+                "restitutionCoeff": 0.0,
+                "frictionCoeff": 1.0,
+                "angVelocity": 0.0,
+                "velocity": {
+                    "x": 0.0,
+                    "y": 0.0
+                }
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Weapon_Minigun"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 60.0,
+                    "y": 14.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": false
+                }
+            },
+            "16329129300127384189": {
+                "_active": true,
+                "name": "Minigun",
+                "isPlayerWeapon": true,
+                "stats": {
+                    "weaponName": "Minigun",
+                    "fireRPM": 1600.0,
+                    "fireType": 1,
+                    "weaponType": 3,
+                    "burstCount": 1,
+                    "pelletCount": 1,
+                    "damagePerBullet": 16,
+                    "magazineSize": 200,
+                    "spread": 30,
+                    "recoilPerShot": 0.17000000178813935,
+                    "recoilWanderMultiplier": -8.0,
+                    "recoilWanderMax": 30.0,
+                    "recoilRecovery": 1.0,
+                    "recoilRecoveryMin": 0.009999999776482582,
+                    "reloadTime": 3.0,
+                    "bulletLifeTime": 2.0,
+                    "bulletSize": 0.8999999761581421,
+                    "bulletSpeed": 30.0,
+                    "bulletSpeedRange": 0.05000000074505806,
+                    "firePointPixel": {
+                        "x": 32.0,
+                        "y": 2.0
+                    },
+                    "holdPointPixel": {
+                        "x": 44.0,
+                        "y": 9.0
+                    },
+                    "muzzleFlashPosition": {
+                        "x": 43.5,
+                        "y": 2.5
+                    },
+                    "shellEjectionPosition": {
+                        "x": 0.0,
+                        "y": 0.0
+                    },
+                    "screenShakePerSpreadDegree": 0.009999999776482582,
+                    "screenShakePerShot": 0.03999999910593033,
+                    "maximumScreenShake": 0.30000001192092898,
+                    "enemyDamage": 5,
+                    "enemyCycleTimeBase": 5.0,
+                    "enemyCycleTimeBurst": 0.07500000298023224,
+                    "enemyBurstBullets": 100
+                },
+                "audioReload": {
+                    "name": "Reload"
+                },
+                "audioFire": {
+                    "name": "Shoot_Minigun"
+                },
+                "audioPickup": {
+                    "name": "Pickup_Minigun"
+                },
+                "interactable": true
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 9640.4580078125,
+            "y": 1746.386474609375
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9007629164941617920
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Minigun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 5147138037747316970,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": 9596.9599609375,
+            "y": 1743.88720703125
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 60.0,
+            "y": 14.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 4
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9019446715916954368
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Renderer"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 49,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 1,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            },
+            "16043719161180265440": {
+                "_active": true,
+                "numSprites": 2,
+                "spriteID_Vec": [
+                    49,
+                    50
+                ]
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": 9640.4580078125,
+            "y": 1746.386474609375
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9025844774078982912
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Minigun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 5147138037747316970,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": 9640.4580078125,
+            "y": 1746.386474609375
+        },
+        "zPosition": 0.5199999809265137,
+        "rotation": 0.0,
+        "scale": {
+            "x": 25.0,
+            "y": 17.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 9036064734659160832
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Muzzleflash_Minigun"
+            },
+            "3155512332023022152": {
+                "_active": true,
+                "currentAnimationHash": 5147138037747316970,
+                "currentFrame": 0,
+                "currentFrameTime": 0.0,
+                "playbackSpeed": 1.0,
+                "isPlaying": false,
+                "isLooping": false
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 97,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

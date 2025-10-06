@@ -1,0 +1,42 @@
+{
+    "entity0": {
+        "position": {
+            "x": 28.9691104888916,
+            "y": 34.86671447753906
+        },
+        "zPosition": 0.9100000262260437,
+        "rotation": 0.0,
+        "scale": {
+            "x": 15.0,
+            "y": 15.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 4789743130816417536
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "IntelText"
+            },
+            "6057063263209738971": {
+                "_active": true,
+                "fontNameHash": 8228575787269127388,
+                "textString": "Default Text",
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0,
+                    "w": 1.0
+                },
+                "alignment": 1,
+                "UI": true
+            }
+        }
+    }
+}

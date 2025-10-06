@@ -1,0 +1,260 @@
+{
+    "entity0": {
+        "position": {
+            "x": -992.7494506835938,
+            "y": -1157.07177734375
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 10.0,
+            "y": 10.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5821032261879746792
+            },
+            "2021310064624237342": {
+                "_active": true,
+                "bulletDamage": 10,
+                "bulletSpeed": 50.0,
+                "timeUpdateInterval": 0.10000000149011612,
+                "timeBulletInterval": 0.05000000074505806,
+                "timeIntermission": 0.30000001192092898,
+                "sweepAngle": 70.0,
+                "sweepAngleOffset": -90.0,
+                "sweepSpeed": 0.3140000104904175,
+                "predictionMultiplier": 0.30000001192092898
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "CeilingTurret"
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": -992.74951171875,
+            "y": -1357.071533203125
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 0.0,
+        "scale": {
+            "x": 700.0,
+            "y": 400.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 10
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5831516105250590952
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "DetectionCollider"
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            }
+        }
+    },
+    "entity2": {
+        "position": {
+            "x": -992.7496337890625,
+            "y": -1171.57177734375
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 64.0,
+            "y": 29.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5836916906366226664
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "TurretBaseSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 195,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity3": {
+        "position": {
+            "x": -992.7496337890625,
+            "y": -1178.57177734375
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5849932925015838952
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Pivot"
+            }
+        }
+    },
+    "entity4": {
+        "position": {
+            "x": -973.7495727539063,
+            "y": -1178.57177734375
+        },
+        "zPosition": 0.5099999904632568,
+        "rotation": 0.0,
+        "scale": {
+            "x": 50.0,
+            "y": 32.0
+        },
+        "parent": "entity3",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5857863702386987240
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "TurretGunSprite"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 196,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": true,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        }
+                    }
+                }
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 0.5511482357978821,
+                    "y": 0.5511482357978821,
+                    "z": 0.5511482357978821
+                },
+                "intensity": 1.0,
+                "radius": 751.0,
+                "falloffExponent": 5.0,
+                "innerRadius": 0.0,
+                "coneAngle": 31.610000610351564,
+                "coneFalloff": 0.0,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": true
+            }
+        }
+    },
+    "entity5": {
+        "position": {
+            "x": -948.7495727539063,
+            "y": -1178.57177734375
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 1.0,
+            "y": 1.0
+        },
+        "parent": "entity4",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 5864259561525760233
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "TurretGunFirepoint"
+            }
+        }
+    }
+}

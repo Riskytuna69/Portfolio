@@ -1,0 +1,76 @@
+{
+    "entity0": {
+        "position": {
+            "x": -1174.750244140625,
+            "y": -1218.7242431640626
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 0.0,
+            "y": 0.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 9
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 11026212665625163766
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "BombRange"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 43,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "lightPenetration": 0.0,
+                        "reflectivity": 0.0
+                    }
+                }
+            },
+            "4170126545654531438": {
+                "_active": true,
+                "spriteID": 0
+            },
+            "11177578551078745619": {
+                "_active": true,
+                "type": 0,
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "halfLengths": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "flags": {
+                    "Is Trigger": true
+                }
+            }
+        }
+    }
+}

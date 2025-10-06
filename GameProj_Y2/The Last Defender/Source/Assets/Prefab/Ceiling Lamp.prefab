@@ -1,0 +1,103 @@
+{
+    "entity0": {
+        "position": {
+            "x": 248.55072021484376,
+            "y": 572.07080078125
+        },
+        "zPosition": 0.5,
+        "rotation": 0.0,
+        "scale": {
+            "x": 16.0,
+            "y": 5.0
+        },
+        "parent": "",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2315416457598783625
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Ceiling Lamp"
+            },
+            "3381165323192817782": {
+                "_active": true,
+                "spriteID": 236,
+                "color": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "flippedX": false,
+                "flippedY": false,
+                "materialInstance": {
+                    "baseMaterialName": "default",
+                    "overrideFlags": 0,
+                    "hasOverrides": false,
+                    "hasParameterOverrides": false,
+                    "overrideParameters": {
+                        "baseColor": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0,
+                            "w": 1.0
+                        },
+                        "tiling": {
+                            "x": 1.0,
+                            "y": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "entity1": {
+        "position": {
+            "x": 248.49090576171876,
+            "y": 571.9490966796875
+        },
+        "zPosition": 0.10000000149011612,
+        "rotation": 270.0,
+        "scale": {
+            "x": 16.0,
+            "y": 5.0
+        },
+        "parent": "entity0",
+        "components": {
+            "1048412265199846848": {
+                "_active": true,
+                "layer": 0
+            },
+            "1223095846833079106": {
+                "_active": true,
+                "uid": 2326532520155645239
+            },
+            "2471509561333568296": {
+                "_active": true,
+                "name": "Light Part"
+            },
+            "11134769375879861958": {
+                "_active": true,
+                "color": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "intensity": 0.0470588244497776,
+                "radius": 796.0,
+                "falloffExponent": 2.803999900817871,
+                "innerRadius": 437.5,
+                "coneAngle": 168.02699279785157,
+                "coneFalloff": 1.0,
+                "state.enabled": true,
+                "state.castShadows": true,
+                "state.isSpot": true
+            }
+        }
+    }
+}
