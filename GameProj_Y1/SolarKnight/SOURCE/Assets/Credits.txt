@@ -1,0 +1,43 @@
+t SOLAR KNIGHT
+n All content Copyright 2024 Digipen Institute of Technology Singapore
+n All rights reserved
+*
+t A GAME BY
+n Chua Wen Shing Bryan
+n Chng Kai Rong Leonard
+n Gavin Ang Jun Liang
+n Min Khant Ko
+n Lau Jia Win
+*
+t FACULTY AND ADVISORS
+n Cheng Ding Xiang
+n Gerald Wong
+n Im Hyeong Sun
+*
+t CREATED AT 
+n DigiPen Institute of Technology Singapore
+ 
+t PRESIDENT 
+n Claude Comair
+ 
+t EXECUTIVES 
+n Jason CHU
+n Christopher COMAIR
+n Michael GATS
+n Michele COMAIR
+n Raymond YAN
+n Samir ABOU SAMRA
+n Prasanna GHALI
+n John BAUER
+n Dr. Erik MOHRMANN
+n Melvin GONSALVEZ
+n Angela KUGLER
+n Dr. Charles DUBA
+n Ben ELLINGER
+n Johnny DEEK
+*
+t Copyright Free Libraries Used
+n Soundly
+*
+t THANK YOU FOR PLAYING
+
