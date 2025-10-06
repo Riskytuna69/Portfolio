@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'crate.blend'
+# www.blender.org
+
+newmtl Treasure_1_Material.002
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Treasure_1.png
