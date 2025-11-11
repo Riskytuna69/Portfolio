@@ -1,0 +1,92 @@
+# Blender 4.5.4 LTS MTL File: 'crate.blend'
+# www.blender.org
+
+newmtl Barrel_Material.001
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Barrel/Barrel.png
+
+newmtl Barrier_Wooden_Material.002
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Barrier/Barrier_Wooden/Barrier_Wooden.png
+
+newmtl Crate_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Crate/Crate.png
+
+newmtl Table_Cloth_Material.001
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Table_Cloth/Table_Cloth.png
+
+newmtl Table_No_Cloth_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Table_No_Cloth/Table_No_Cloth.png
+
+newmtl Treasure_1_Material.003
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Treasures/Treasure_1.png
+
+newmtl Treasure_3_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Treasures/Treasure_3.png
+
+newmtl Untitled_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Users/bryan/Desktop/Gam300/Exports/Objects/Treasures/Treasure_small.png
+
+newmtl Untitled_Material.002
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
